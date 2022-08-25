@@ -1,0 +1,56 @@
+    [ { 
+      "titre": "C'est quoi l'amour",
+      "cpr":1,
+      "auteur": "Lucile de Peslouan ",
+      "prix":  17.95,
+      "rabais": 0,
+      "description": "L’amour est un sentiment plus grand que nature. Dans ce livre, \n        vous ne trouverez ni la recette du grand amour, ni des coeurs \n        à toutes les pages, encore moins une définition de l’amour. Mais\n         vous trouverez des réponses, celles qui vous conviennent, et des\n          déclarations d’amour, celles qui vous ressemblent.",
+      "image": "../../assets/images/special0.jpg",
+      "niveau": "",
+      "quantite":1,
+      "totalPrix":17.95
+    
+    },
+      
+    
+      { 
+        "titre": "Moi, c'est Tantale",
+        "cpr": 2,
+        "auteur": "Marois Andre",
+        "prix": 19.95,
+        "rabais":0,
+        "description": "e tantale est un métal rare, précieux et très recherché. Que nous apprendrait-il s’il pouvait tout nous révéler ?\n                    Découvrez ses aventures et son voyage depuis la République démocratique du Congo où il est extrait, en passant par l’Asie où il est transformé, pour arriver dans nos téléphones cellulaires. Et après ? Qu’est ce qu’il devient ? Tantale nous raconte tout. [Ed]",
+        "image": "../../assets/images/special2.jpg",
+        "niveau": "",
+        "quantite":1,
+        "totalPrix":19.95
+
+      },
+    
+      { 
+        "titre": "Pourquoi les filles ont mal au ventre!",
+        "cpr": 3,
+        "auteur": "lucile de Peslouan",
+        "prix": 17.95,
+        "rabais":0,
+        "description": "Ce livre est un manifeste féministe qui dénonce les malaises que ressentent les femmes, de l’enfance à l’âge adulte, dans une société qui ne les ménage pas. Ce texte invite les adolescents à se questionner sur les situations de sexisme que les filles vivent au quotidien, et il les sensibilise aux inégalités que subissent les femmes à travers le monde.",
+        "image": "../../assets/images/special3.jpg",
+        "niveau": "",
+        "quantite":1,
+        "totalPrix":17.95
+      },
+    
+      { 
+        "titre": "si je disparais",
+        "cpr": 4,
+        "auteur": "Briana Jonnie",
+        "prix": 21.95,
+        "rabais":0,
+        "description": "Cher Chef de police, je suis une jeune fille autochtone. Voici mes sœurs. Je suis une entraîneuse de natation, une danseuse, une excellente élève, une bénévole, une amie. Je suis une cousine. Je suis une petite-fille. Je suis une fille… l",
+        "image": "../../assets/images/special4.jpg",
+        "niveau": "",
+        "quantite":1,
+        "totalPrix":21.95
+ 
+        } 
+      ] 

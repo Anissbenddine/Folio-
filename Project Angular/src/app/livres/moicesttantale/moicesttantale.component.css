@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {}
+    .navbar-brand {
+        font-size: 2rem;
+        color: black;
+        font-family: 'Lobster', cursive;
+    }
+
+    .navbar-brand:hover {
+        color: black;
+    }
+
+    .nav-link {
+        margin-right: 10px;
+        margin-left: 10px;
+        color: black;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .btn1 {
+        height: 45px;
+        width: 50%;
+        border: none;
+        outline: none;
+        background-color: rgb(248, 26, 92);
+        color: white;
+        font-weight: 700;
+        border-radius: 60px;
+    }
+
+    .livres {
+        background-image: url("../../../assets/images/back.jpg");
+        background-size: cover;
+        background-repeat: repeat;
+        height: 100vh;
+        background-position: 50% 50%;
+        width: 100%;
+    }
+
+    .picture-left {
+        float: left;
+        margin: auto;
+        width: 30%;
+    }
+
+    .paragraph-right {
+      margin: 0% 10% 20% 40%
+    }

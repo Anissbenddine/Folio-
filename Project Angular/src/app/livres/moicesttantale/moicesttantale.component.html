@@ -1,0 +1,22 @@
+<div class="livres container produit">
+
+	<img src={{ListeLivres[1].image}}  class="picture-left">
+  <div class="paragraph-right">
+    <br>
+    <h1>{{ListeLivres[1].titre}}</h1>
+    <br>
+    <h3>{{ListeLivres[1].auteur}}</h3>
+    <br>
+    <p>{{ListeLivres[1].description}}</p>
+          <br>{{ListeLivres[1].niveau}}
+          <br>
+          {{ListeLivres[1].rabais}}
+          <br>
+          {{ListeLivres[1].prix}}
+    <br>
+    <br>
+      <a href="monpanier.html" class="ajouter-panier" onclick="return ajouterAuPanier(3);">
+          <button class="btn1 mt-3">Ajouter au panier</button>
+      </a>
+  </div>
+</div>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<section class="livres">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg5 m-auto text-center">
+              <h1>CATALOGUE DES LIVRES</h1>
+                <h6 style="color:rgb(248, 26, 92) ">Tendance</h6>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 text-center">
+           <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                <a routerLink="/cestquoilamour">
+                   <img src={{ListeLivres[0].image}}  class="img-fluid" alt="">
+                </a>
+
+                </div>
+           </div>
+              <h5>{{ListeLivres[0].titre}}</h5>
+              <h6>{{ListeLivres[0].auteur}} </h6>
+                  <br>{{ListeLivres[0].niveau}}
+                  <br>
+                  - {{ListeLivres[0].rabais}}%
+                  <br>
+                  {{ListeLivres[0].prix}} $
+                  <br>
+                  <button class="btn2" (click)=addtocart(ListeLivres[0])>Add to cart</button>
+                </div>
+            <div class="col-lg-3 text-center" >
+                <div class="card border-0 bg-light mb-2">
+                    <div class="card-body" >
+                        <a routerLink="/moicesttantale">
+
+                            <img src={{ListeLivres[1].image}} class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+                <h5>{{ListeLivres[1].titre}}</h5>
+                <h6>{{ListeLivres[1].auteur}} </h6>
+                    <br>{{ListeLivres[1].niveau}}
+                    <br>
+                    - {{ListeLivres[1].rabais}}%
+                    <br>
+                    {{ListeLivres[1].prix}} $
+                    <br>
+                    <button class="btn2" (click)=addtocart(ListeLivres[1])>Add to cart</button>
+                </div>
+            <div class="col-lg-3 text-center" >
+                <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <a routerLink="/pourquoilesfilles">
+
+                    <img src={{ListeLivres[2].image}}  class="img-fluid" alt="">
+                </a>
+                </div>
+            </div>
+            <h5>{{ListeLivres[2].titre}}</h5>
+            <h6>{{ListeLivres[2].auteur}} </h6>
+                <br>{{ListeLivres[2].niveau}}
+                <br>
+                - {{ListeLivres[2].rabais}}%
+                <br>
+                {{ListeLivres[2].prix}} $
+                <br>
+                <button class="btn2" (click)=addtocart(ListeLivres[2])>Add to cart</button>
+            </div>
+            <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <div class="card-body">
+                        <a routerLink="/sijedisparais">
+
+                        <img src={{ListeLivres[3].image}} class="img-fluid" alt="">
+                    </a>
+
+                    </div>
+                </div>
+                <h5>{{ListeLivres[3].titre}}</h5>
+                <h6>{{ListeLivres[3].auteur}} </h6>
+                    <br>{{ListeLivres[3].niveau}}
+                    <br>
+                    - {{ListeLivres[3].rabais}}%
+                    <br>
+                    {{ListeLivres[3].prix}} $
+                    <br>
+                    <button class="btn2" (click)=addtocart(ListeLivres[3])>Add to cart</button>
+
+
+        </div>
+    </div>
+    </div>

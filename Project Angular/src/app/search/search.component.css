@@ -1,0 +1,9 @@
+.searchbtn {
+  height: 40px;
+  width: 200px;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  font-family: 'Rubik', sans-serif;
+  border: 2px solid rgb(248, 26, 92);
+}
