@@ -1,0 +1,152 @@
+{% extends "default.html" %} {% block content %}
+<section class="vh-100 gradient-custom" style="background-image: url('img/register_background.jpg'); height: 100vh;">
+  <form action="/editgame" method="post">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-dark text-white" style="border-radius: 1rem; opacity: 0.85;">
+            <div class="card-body p-5 text-center">
+              <div class="mb-md-5 mt-md-4 pb-5">
+                <h2 class="fw-bold mb-2">Game selection</h2>
+                <p class="text-white-50 mb-5">Please enter your 3 favorite games!</p>
+                <div class="form-outline form-white mb-4">
+                  <select name="game1" value="{{temp[0]}}" class="select form-control-lg">
+                    <option value="1" disabled selected>Choose option</option>
+                    <option value="" selected></option>
+                    <option value="Dead by Daylight">Dead by Daylight</option>
+                    <option value="PUBG">PUBG</option>
+                    <option value="Tetris 99">Tetris 99</option>
+                    <option value="Red Dead Online">Red Dead Online</option>
+                    <option value="Counter-Strike: Global Offensive">Counter-Strike: Global Offensive</option>
+                    <option value="Overcooked 2">Overcooked 2</option>
+                    <option value="Diablo 3">Diablo 3</option>
+                    <option value="Phasmaphobia">Phasmaphobia</option>
+                    <option value="Portal 2">Portal 2</option>
+                    <option value="Risk of Rain 2">Risk of Rain 2</option>
+                    <option value="League of Legends">League of Legends</option>
+                    <option value="Spellbreak">Spellbreak</option>
+                    <option value="GTA Online">GTA Online</option>
+                    <option value="Path of Exile">Path of Exile</option>
+                    <option value="Forza Horizon 4">Forza Horizon 4</option>
+                    <option value="Super Smash Bros. Ultimate">Super Smash Bros. Ultimate</option>
+                    <option value="Divinity: Original Sin 2">Divinity: Original Sin 2</option>
+                    <option value="Call of Duty: Warzone">Call of Duty: Warzone</option>
+                    <option value="Rocket League">Rocket League</option>
+                    <option value="Animal Crossing: New Horizons">Animal Crossing: New Horizons</option>
+                    <option value="Final Fantasy 14">Final Fantasy 14</option>
+                    <option value="Mario Kart 8 Deluxe">Mario Kart 8 Deluxe</option>
+                    <option value="Fall Guys">Fall Guys</option>
+                    <option value="Fortnite">Fortnite</option>
+                    <option value="Monster Hunter World">Monster Hunter World</option>
+                    <option value="Minecraft">Minecraft</option>
+                    <option value="Apex Legends">Apex Legends</option>
+                    <option value="Sea of Thieves">Sea of Thieves</option>
+                    <option value="Among Us">Among Us</option>
+                    <option value="Destiny 2">Destiny 2</option>
+                    <option value="Rust">Rust</option>
+                    <option value="World of Warcraft">World of Warcraft</option>
+                  </select>
+                  <br />
+                  <label class="form-label" for="1stgame">1st Game</label>
+                </div>
+                {% if erreur %}
+                <p style="color: red;">{{ erreur[0] }}</p>
+                {% endif %}
+                <div class="form-outline form-white mb-4">
+                  <select name="game2" value="{{temp[1]}}" class="select form-control-lg">
+                    <option value="1" disabled>Choose option</option>
+                    <option value="" selected></option>
+                    <option value="Dead by Daylight">Dead by Daylight</option>
+                    <option value="PUBG">PUBG</option>
+                    <option value="Tetris 99">Tetris 99</option>
+                    <option value="Red Dead Online">Red Dead Online</option>
+                    <option value="Counter-Strike: Global Offensive">Counter-Strike: Global Offensive</option>
+                    <option value="Overcooked 2">Overcooked 2</option>
+                    <option value="Diablo 3">Diablo 3</option>
+                    <option value="Phasmaphobia">Phasmaphobia</option>
+                    <option value="Portal 2">Portal 2</option>
+                    <option value="Risk of Rain 2">Risk of Rain 2</option>
+                    <option value="League of Legends">League of Legends</option>
+                    <option value="Spellbreak">Spellbreak</option>
+                    <option value="GTA Online">GTA Online</option>
+                    <option value="Path of Exile">Path of Exile</option>
+                    <option value="Forza Horizon 4">Forza Horizon 4</option>
+                    <option value="Super Smash Bros. Ultimate">Super Smash Bros. Ultimate</option>
+                    <option value="Divinity: Original Sin 2">Divinity: Original Sin 2</option>
+                    <option value="Call of Duty: Warzone">Call of Duty: Warzone</option>
+                    <option value="Rocket League">Rocket League</option>
+                    <option value="Animal Crossing: New Horizons">Animal Crossing: New Horizons</option>
+                    <option value="Final Fantasy 14">Final Fantasy 14</option>
+                    <option value="Mario Kart 8 Deluxe">Mario Kart 8 Deluxe</option>
+                    <option value="Fall Guys">Fall Guys</option>
+                    <option value="Fortnite">Fortnite</option>
+                    <option value="Monster Hunter World">Monster Hunter World</option>
+                    <option value="Minecraft">Minecraft</option>
+                    <option value="Apex Legends">Apex Legends</option>
+                    <option value="Sea of Thieves">Sea of Thieves</option>
+                    <option value="Among Us">Among Us</option>
+                    <option value="Destiny 2">Destiny 2</option>
+                    <option value="Rust">Rust</option>
+                    <option value="World of Warcraft">World of Warcraft</option>
+                  </select>
+                  <br />
+                  <label class="form-label" for="2ndgame">2nd Game</label>
+                </div>
+                {% if erreur %}
+                <p style="color: red;">{{ erreur[1] }}</p>
+                {% endif %}
+                <div class="form-outline form-white mb-4">
+                  <select name="game3" value="{{temp[2]}}" class="select form-control-lg">
+                    <option value="1" disabled>Choose option</option>
+                    <option value="" selected></option>
+                    <option value="Dead by Daylight">Dead by Daylight</option>
+                    <option value="PUBG">PUBG</option>
+                    <option value="Tetris 99">Tetris 99</option>
+                    <option value="Red Dead Online">Red Dead Online</option>
+                    <option value="Counter-Strike: Global Offensive">Counter-Strike: Global Offensive</option>
+                    <option value="Overcooked 2">Overcooked 2</option>
+                    <option value="Diablo 3">Diablo 3</option>
+                    <option value="Phasmaphobia">Phasmaphobia</option>
+                    <option value="Portal 2">Portal 2</option>
+                    <option value="Risk of Rain 2">Risk of Rain 2</option>
+                    <option value="League of Legends">League of Legends</option>
+                    <option value="Spellbreak">Spellbreak</option>
+                    <option value="GTA Online">GTA Online</option>
+                    <option value="Path of Exile">Path of Exile</option>
+                    <option value="Forza Horizon 4">Forza Horizon 4</option>
+                    <option value="Super Smash Bros. Ultimate">Super Smash Bros. Ultimate</option>
+                    <option value="Divinity: Original Sin 2">Divinity: Original Sin 2</option>
+                    <option value="Call of Duty: Warzone">Call of Duty: Warzone</option>
+                    <option value="Rocket League">Rocket League</option>
+                    <option value="Animal Crossing: New Horizons">Animal Crossing: New Horizons</option>
+                    <option value="Final Fantasy 14">Final Fantasy 14</option>
+                    <option value="Mario Kart 8 Deluxe">Mario Kart 8 Deluxe</option>
+                    <option value="Fall Guys">Fall Guys</option>
+                    <option value="Fortnite">Fortnite</option>
+                    <option value="Monster Hunter World">Monster Hunter World</option>
+                    <option value="Minecraft">Minecraft</option>
+                    <option value="Apex Legends">Apex Legends</option>
+                    <option value="Sea of Thieves">Sea of Thieves</option>
+                    <option value="Among Us">Among Us</option>
+                    <option value="Destiny 2">Destiny 2</option>
+                    <option value="Rust">Rust</option>
+                    <option value="World of Warcraft">World of Warcraft</option>
+                  </select>
+                  <br />
+                  <label class="form-label" for="3rdgame">3rd Game</label>
+                </div>
+                {% if erreur %}
+                <p style="color: red;">{{ erreur[2] }}</p>
+                {% endif %}
+                <div class="mt-4 pt-2">
+                  <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,155 @@
+#%RAML 1.0
+title: Services  d'installations pour faire des activités sportives. 
+baseUri: http://127.0.0.1:5000/
+version: 1
+types:
+    Installation:
+        properties:
+            id:
+                type: string
+                required: true
+            nom:
+                type: string
+                required: true 
+            arrondissement:
+                type: string
+                required: true
+    Piscine:
+        properties:
+            id:
+                type: string
+                required: true
+            nom:
+                type: string
+                required: true
+            type:
+                type: string
+                required: true   
+            arrondissement:
+                type: string
+                required: true
+            adresse:
+                type: string
+                required: true
+            propriete:
+                type: string
+                required: true
+            gestion:
+                type: string
+                required: true
+            equipement:
+                type: string
+                required: true  
+            long:
+                type: number
+                required: true 
+            lat:
+                type: number
+                required: true
+            x:
+                type: number
+                required: true 
+            y:
+                type: number
+                required: true            
+    Glissade:
+        properties:
+            id:
+                type: string
+                required: true
+            nom:
+                type: string
+                required: true
+            type:
+                type: string
+                required: true   
+            arrondissement:
+                type: string
+                required: true 
+            ouvert:
+                type: number
+                required: true 
+            deblaye:
+                type: number
+                required: true
+            condition:
+                type: number
+                required: true 
+    Patinoire:
+        properties:
+            id:
+                type: string
+                required: true
+            nom:
+                type: string
+                required: true
+            type:
+                type: string
+                required: true   
+            arrondissement:
+                type: string
+                required: true 
+            ouvert:
+                type: number
+                required: true 
+            deblaye:
+                type: number
+                required: true
+            arrose:
+                type: number
+                required: true
+            resurface:
+                type: number
+                required: true         
+/api: 
+    /installations: 
+        get: 
+            description: Fournir la liste des installations selon a arrondissement. 
+            responses:
+                200: 
+                    description: La liste des livres a été correctement envoyée. 
+                    body: 
+                        application/json: 
+                            type: Installation 
+                500: 
+                    description: Une erreur interne s'est produite. L'erreur a été signalée à l'équipe de développement.
+            queryParameters: 
+                recherche: 
+                    description: Une chaîne de caractères qui doit être identique a l'arrondissement de l'installation. 
+                    type: string 
+                    required: false 
+                    example: LaSalle
+    /info-installations: 
+        get: 
+            description: Fournir la liste des informations connu sur l'installation choisie. 
+            responses:
+                200: 
+                    description: La liste des informations a été correctement envoyée. 
+                    body: 
+                        application/json: 
+                            type: Piscine || Glissade || Patinoire 
+                500: 
+                    description: Une erreur interne s'est produite. L'erreur a été signalée à l'équipe de développement.
+            queryParameters: 
+                recherche: 
+                    description: Une chaîne de caractères qui doit être identique au nom de l'installation. 
+                    type: string 
+                    required: false 
+                    example: Parc Cooney
+    /type-installations :
+        get: 
+            description: Fournir la liste des installations selon leur type. 
+            responses:
+                200: 
+                    description: La liste des installations a été correctement envoyée. 
+                    body: 
+                        application/json: 
+                            type: Piscine || Glissade || Patinoire 
+                500: 
+                    description: Une erreur interne s'est produite. L'erreur a été signalée à l'équipe de développement.
+            queryParameters: 
+                recherche: 
+                    description: Une chaîne de caractères qui doit être identique au type de l'installation. 
+                    type: string 
+                    required: false 
+                    example: piscines            

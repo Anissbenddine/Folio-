@@ -1,0 +1,339 @@
+{% extends "default.html" %} {% block content %}
+
+<style>
+    .post-editor,
+    .stream-post {
+        padding: 0.75rem;
+        background: #f7f7f9;
+        border: 1px solid #eceeef;
+        border-radius: 0.25rem;
+        margin-bottom: 1.5rem;
+    }
+    body {
+        background: #eee;
+    }
+    .search-result .title h3 {
+        margin: 0 0 15px;
+        color: #333;
+    }
+    .search-result .title p {
+        font-size: 12px;
+        color: #333;
+    }
+    .well {
+        border: 0;
+        padding: 20px;
+        min-height: 63px;
+        background: #fff;
+        box-shadow: none;
+        border-radius: 3px;
+        position: relative;
+        max-height: 100000px;
+        border-bottom: 2px solid #ccc;
+        transition: max-height 0.5s ease;
+        -o-transition: max-height 0.5s ease;
+        -ms-transition: max-height 0.5s ease;
+        -moz-transition: max-height 0.5s ease;
+        -webkit-transition: max-height 0.5s ease;
+        opacity: 0.85;
+    }
+    .form-control {
+        height: 45px;
+        padding: 10px;
+        font-size: 16px;
+        box-shadow: none;
+        border-radius: 0;
+        position: relative;
+    }
+    .social-feed-separated .social-feed-box {
+        margin-left: 62px;
+    }
+    .social-feed-separated .social-avatar {
+        float: left;
+        padding: 0;
+    }
+    .social-feed-separated .social-avatar img {
+        width: 52px;
+        height: 52px;
+        border: 1px solid #e7eaec;
+    }
+    .social-feed-separated .social-feed-box .social-avatar {
+        padding: 15px 15px 0 15px;
+        float: none;
+    }
+    .social-feed-box {
+        /*padding: 15px;*/
+        border: 1px solid #e7eaec;
+        background: #fff;
+        margin-bottom: 15px;
+    }
+    .article .social-feed-box {
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+    .article .social-feed-box:last-child {
+        margin-bottom: 0;
+        border-bottom: 1px solid #e7eaec;
+    }
+    .article .social-feed-box p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .social-action {
+        margin: 15px;
+    }
+    .social-avatar {
+        padding: 15px 15px 0 15px;
+    }
+    .social-comment .social-comment {
+        margin-left: 45px;
+    }
+    .social-avatar img {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+    .social-avatar .media-body a {
+        font-size: 14px;
+        display: block;
+    }
+    .social-body {
+        padding: 15px;
+    }
+    .social-body img {
+        margin-bottom: 10px;
+    }
+    .social-footer {
+        border-top: 1px solid #e7eaec;
+        padding: 10px 15px;
+        background: #f9f9f9;
+    }
+    .social-footer .social-comment img {
+        width: 32px;
+        margin-right: 10px;
+    }
+    .social-comment:first-child {
+        margin-top: 0;
+    }
+    .social-comment {
+        margin-top: 15px;
+    }
+    .social-comment textarea {
+        font-size: 12px;
+    }
+    .form-control,
+    .single-line {
+        background-color: #ffffff;
+        background-image: none;
+        border: 1px solid #e5e6e7;
+        border-radius: 1px;
+        color: inherit;
+        display: block;
+        padding: 6px 12px;
+        transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+        width: 100%;
+        font-size: 14px;
+    }
+    .ibox {
+        clear: both;
+        margin-bottom: 25px;
+        margin-top: 0;
+        padding: 0;
+    }
+    .ibox.collapsed .ibox-content {
+        display: none;
+    }
+    .ibox.collapsed .fa.fa-chevron-up:before {
+        content: "\f078";
+    }
+    .ibox.collapsed .fa.fa-chevron-down:before {
+        content: "\f077";
+    }
+    .ibox:after,
+    .ibox:before {
+        display: table;
+    }
+    .ibox-title {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #ffffff;
+        border-color: #e7eaec;
+        border-image: none;
+        border-style: solid solid none;
+        border-width: 3px 0 0;
+        color: inherit;
+        margin-bottom: 0;
+        padding: 14px 15px 7px;
+        min-height: 48px;
+    }
+    .ibox-content {
+        background-color: #ffffff;
+        color: inherit;
+        padding: 15px 20px 20px 20px;
+        border-color: #e7eaec;
+        border-image: none;
+        border-style: solid solid none;
+        border-width: 1px 0;
+    }
+    .ibox-footer {
+        color: inherit;
+        border-top: 1px solid #e7eaec;
+        font-size: 90%;
+        background: #ffffff;
+        padding: 10px 15px;
+    }
+</style>
+<section class="h-100 gradient-custom-2" style="background-image: url('img/home_background2.jpg'); height: 100vh;">
+    <div class="fluid-container">
+        <center>
+            <nav class="navbar navbar-expand-lg navbar-dark justify-content-between fixed-top text-white" style="background-color: #220b36;">
+                <a class="navbar-brand" href="#">
+                    <img src="../img/combine.gif" width="51" height="8" class="d-inline-block" alt="" />
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/feed">Feed news </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/demandeami">Add request</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notifications</a>
+                    </li>
+                </ul>
+                <form class="form-inline ml-auto" method="post" action="/profil">
+                    <input class="form-control mr-sm-2" type="search" name="searchVal" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-secondary" data-mdb-ripple-color="dark" style="z-index: 1;">Search</button>
+                </form>
+            </nav>
+        </center>
+    </div>
+    <div class="container py-5 h-100"></div>
+    <div class="row d-flex justify-content-left h-100">
+        <div id="sidebar-container" class="sidebar-expanded col-2 d-none d-md-block">
+            <ul class="list-group sticky-top sticky-offset">
+                <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start text-white">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fa fa-user fa-fw mr-3"></span>
+                        <span class="menu-collapsed">Profile</span>
+                        <span class="submenu-icon ml-auto"></span>
+                    </div>
+                </a>
+                <!-- Submenu content -->
+                <div id="submenu1" class="collapse sidebar-submenu">
+                    <a href="/profil" class="list-group-item list-group-item-action bg-dark text-white">
+                        <span class="menu-collapsed">My Profile</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <span class="menu-collapsed">Settings</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <span class="menu-collapsed">Log out</span>
+                    </a>
+                </div>
+                <a href="#" class="bg-dark list-group-item list-group-item-action text-white">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                        <span class="menu-collapsed">Find friends</span>
+                    </div>
+                </a>
+                <a href="/friendlist" class="bg-dark list-group-item list-group-item-action text-white">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                        <span class="menu-collapsed">Friends <span class="badge badge-pill badge-secondary ml-2">5</span></span>
+                    </div>
+                </a>
+                <a href="#" class="bg-dark list-group-item list-group-item-action text-white">
+                    <div class="d-flex w-100 justify-content-start align-items-center">
+                        <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                        <span class="menu-collapsed">Messages<span class="badge badge-pill badge-secondary ml-2">5</span></span>
+                    </div>
+                </a>
+            </ul>
+        </div>
+        <div class="col col-lg-9 col-xl-7">
+            <div class="card">
+                <div class="card-body p-4 text-black">
+                    <br />
+                    <br />
+                    <form action="/add_post" method="POST" enctype="multipart/form-data">
+                        <div class="post-editor">
+                            <textarea name="post_contenu" id="post-field" class="form-control" placeholder="Write Something Cool!"></textarea>
+                            <div class="d-flex">
+                                <br />
+
+                                <div class="mt-4 pt-2">
+                                    <input id="upload" name="file" class="form-control form-control-lg" type="file" accept="image/png, image/gif, image/jpeg" required />
+                                    <button class="btn btn-outline-dark" data-mdb-ripple-color="dark" style="z-index: 1;">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    {% for item in posts %}
+                    <div class="social-feed-box" style="opacity: 0.85;">
+                        <div class="social-avatar">
+                            <a href="" class="pull-left">
+                                <img alt="image" src="{{item[8]}}" />
+                            </a>
+                            <div class="media-body">
+                                <a href="#">
+                                    {{item[6]}} {{item[7]}}
+                                </a>
+                                <small class="text-muted">{{item[5]}}</small>
+                            </div>
+                        </div>
+                        <div class="social-body">
+                            <p>
+                                {{item[2]}}
+                            </p>
+                            <img src="{{item[3]}}" class="img-thumbnail" />
+                            <br />
+                            <br />
+                            <div class="btn-group">
+                                <button class="btn btn-white btn-xs">
+                                    <i class="fa fa-thumbs-up"></i> <a href=""><p class="text-secondary">Like this!</p></a>
+                                </button>
+                                <button class="btn btn-white btn-xs">
+                                    <i class="fa fa-comments"></i><a href=""><p class="text-secondary">Comment</p></a>
+                                </button>
+                                <button class="btn btn-white btn-xs">
+                                    <i class="fa fa-share"></i><a href=""><p class="text-secondary">Share</p></a>
+                                </button>
+                            </div>
+                            <form action="/add_comment/{{item[0]}}" method="POST">
+                                <br />
+                                <br />
+                                <textarea name="post_comment" id="comment-field" class="post-field" placeholder="Write a cool comment!"></textarea>
+                            </form>
+                            <div><input class="btn btn-secondary btn-lg" type="submit" value="Submit" /></div>
+                        </div>
+                        <div class="social-footer">
+                            {% for com in comments %}
+                            <div id="comment-section" class="social-comment">
+                                {% if com[1] == item[0] %}
+                                <a href="" class="pull-left">
+                                    <img alt="image" src="{{com[6]}}" />
+                                </a>
+                                <div class="media-body">
+                                    <a href="#"> {{com[4]}} {{com[5]}}</a>
+                                    <br />
+                                    {{com[0]}}
+                                    <br />
+                                    <small class="text-muted"> {{com[3]}} </small>
+                                </div>
+                                <hr />
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <hr />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

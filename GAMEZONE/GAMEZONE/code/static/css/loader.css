@@ -1,0 +1,6 @@
+.loaders{
+    position: fixed;
+    background: image('loader_anim.gif');
+    width: 100%;
+    height: 100%;
+}

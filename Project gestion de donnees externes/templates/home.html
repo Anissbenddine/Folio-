@@ -1,0 +1,27 @@
+{% extends "default.html" %}
+{% block content %}
+<script src = 'js/script.js'></script>
+<p>Selectionner l'arrondissement </p><select id="arrondissement_choisi" >
+    {% for item in arr %}
+        <option value="{{item[1]}}"> {{item[1]}}</option>
+    {% endfor %}
+</select>
+<button id = "btn" onClick= "asyncrone_get_install_by_arr()" > Chercher les installations</button>
+<p>Selectionner l'installation </p><select id="installation_choisi" >
+    {% for item in install %}
+        <option value="{{item[1]}}"> {{item[1]}}</option>
+    {% endfor %}
+</select>
+<button id = "btn-info" onClick= "asyncrone_get_info_install()" > Afficher informations</button>
+<p>Selectionner le type d'installation </p><select id="type_choisi" >
+        <option value="piscines"> Piscines </option>
+        <option value="glissades"> Glissades </option>
+        <option value="patinoires"> Patinoires </option>
+</select>
+<button id = "affiche-installations" onClick= "asyncrone_get_all_install()" > Afficher les installations</button> <button id = "btn-xml" onClick= "asyncrone_get_XML()" > XML </button> <button id = "btn-csv" onClick= "asyncrone_get_CSV()" > CSV </button> <form style="display: inline" action="/doc" method="get">
+    <button>DOC</button>
+  </form>
+<div id = "content"></div>
+{%endblock content%}
+
+

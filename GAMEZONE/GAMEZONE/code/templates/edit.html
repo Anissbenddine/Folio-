@@ -1,0 +1,93 @@
+{% extends "default.html" %} {% block content %}
+<form action="/edit" method="POST">
+  <section class="vh-100 gradient-custom" style="background-image: url('img/register_background.jpg'); height: 100vh;">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card bg-dark text-white" style="border-radius: 15px; opacity: 0.85;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Edit</h3>
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" name="firstname" id="firstName" class="form-control form-control-lg" value="" />
+                      <label class="form-label" for="firstName">First Name</label>{% if erreur %}
+                      <p style="color: red;">{{ erreur[0] }}</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" name="lastname" id="lastName" class="form-control form-control-lg" value="" />
+                      <label class="form-label" for="lastName">Last Name</label>{% if erreur %}
+                      <p style="color: red;">{{ erreur[1] }}</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="password" name="password" id="password" class="form-control form-control-lg" value="" />
+                      <label class="form-label" for="password">New password</label>{% if erreur %}
+                      <p style="color: red;">{{ erreur[2] }}</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="password" name="passwordconf" id="passwordconf" class="form-control form-control-lg" value="" />
+                      <label class="form-label" for="passwordconf">Confirm password</label>{% if erreur %}
+                      <p style="color: red;">{{ erreur[3] }}</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <h6 class="mb-2 pb-1">Gender:</h6>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender" value="option1" checked />
+                      <label class="form-check-label" for="femaleGender">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+                      <label class="form-check-label" for="maleGender">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender" value="option3" />
+                      <label class="form-check-label" for="otherGender">Other</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4 pb-2">
+                    <div class="form-outline">
+                      <input type="tel" name="phone" id="phoneNumber" class="form-control form-control-lg" value="" />
+                      <label class="form-label" for="phoneNumber">Phone Number</label>{% if erreur %}
+                      <p style="color: red;">{{ erreur[4] }}</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <select class="select form-control-lg">
+                      <option value="1" disabled>Choose option</option>
+                      <option value="2">Francais</option>
+                      <option value="3">English</option>
+                      <option value="4">Español</option>
+                    </select>
+                    <label class="form-label select-label">Choose Language</label>
+                  </div>
+                </div>
+
+                <div class="mt-4 pt-2"><input class="btn btn-primary btn-lg" type="submit" value="Submit" /> <input class="btn btn-primary btn-lg" type="submit" value="Cancel" /></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</form>
+{% endblock %}

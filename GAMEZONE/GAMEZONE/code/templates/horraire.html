@@ -1,0 +1,71 @@
+{% extends "default.html" %} {% block content %}
+<section class="vh-100 gradient-custom" style="background-image: url('img/register_background.jpg'); height: 100vh;">
+  <form action="/timechoice" method="post">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-dark text-white" style="border-radius: 1rem; opacity: 0.85;">
+            <div class="card-body p-5 text-center">
+              <div class="mb-md-5 mt-md-4 pb-5">
+                <h2 class="fw-bold mb-2">Time Selection</h2>
+                <p class="text-white-50 mb-5">Please enter your 3 game time slots !</p>
+                <div class="form-outline form-white mb-4">
+                  <select name="time1" value="{{temp[0]}}" class="select form-control-lg">
+                    <option value="1" disabled>Choose option</option>
+                    <option value="" selected></option>
+                    <option value="08:00AM - 12:00AM">08:00 AM - 12:00 AM</option>
+                    <option value="08:00AM - 12:00AM">12:00 AM - 04:00 PM</option>
+                    <option value="08:00AM - 12:00AM">04:00 PM - 08:00 PM</option>
+                    <option value="08:00AM - 12:00AM">08:00 PM - 12:00 PM</option>
+                    <option value="OVER 12 PM">OVER 12:00 PM</option>
+                  </select>
+                  <br />
+                  <label class="form-label" for="1stgame">1st Game</label>
+                </div>
+                {% if erreur %}
+                <p style="color: red;">{{ erreur[0] }}</p>
+                {% endif %}
+                <div class="form-outline form-white mb-4">
+                  <select name="time2" value="{{temp[1]}}" class="select form-control-lg">
+                    <option value="1" disabled>Choose option</option>
+                    <option value="" selected></option>
+                    <option value="08:00AM - 12:00AM">08:00 AM - 12:00 AM</option>
+                    <option value="08:00AM - 12:00AM">12:00 AM - 04:00 PM</option>
+                    <option value="08:00AM - 12:00AM">04:00 PM - 08:00 PM</option>
+                    <option value="08:00AM - 12:00AM">08:00 PM - 12:00 PM</option>
+                    <option value="OVER 12 PM">OVER 12:00 PM</option>
+                  </select>
+                  <br />
+                  <label class="form-label" for="2ndgame">2nd Game</label>
+                </div>
+                {% if erreur %}
+                <p style="color: red;">{{ erreur[1] }}</p>
+                {% endif %}
+                <div class="form-outline form-white mb-4">
+                  <select name="time3" value="{{temp[2]}}" class="select form-control-lg">
+                    <option value="1" disabled>Choose option</option>
+                    <option value="" selected></option>
+                    <option value="08:00AM - 12:00AM">08:00 AM - 12:00 AM</option>
+                    <option value="08:00AM - 12:00AM">12:00 AM - 04:00 PM</option>
+                    <option value="08:00AM - 12:00AM">04:00 PM - 08:00 PM</option>
+                    <option value="08:00AM - 12:00AM">08:00 PM - 12:00 PM</option>
+                    <option value="OVER 12 PM">OVER 12:00 PM</option>
+                  </select>
+                  <br />
+                  <label class="form-label" for="3rdgame">3rd Game</label>
+                </div>
+                {% if erreur %}
+                <p style="color: red;">{{ erreur[2] }}</p>
+                {% endif %}
+                <div class="mt-4 pt-2">
+                  <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+{% endblock %}

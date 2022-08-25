@@ -1,0 +1,141 @@
+{% extends "default.html" %} {% block content %}
+<style>
+    body {
+        background: #eee;
+    }
+    .search-result .title h3 {
+        margin: 0 0 15px;
+        color: #333;
+    }
+    .search-result .title p {
+        font-size: 12px;
+        color: #333;
+    }
+    .well {
+        border: 0;
+        padding: 20px;
+        min-height: 63px;
+        background: #fff;
+        box-shadow: none;
+        border-radius: 3px;
+        position: relative;
+        max-height: 100000px;
+        border-bottom: 2px solid #ccc;
+        transition: max-height 0.5s ease;
+        -o-transition: max-height 0.5s ease;
+        -ms-transition: max-height 0.5s ease;
+        -moz-transition: max-height 0.5s ease;
+        -webkit-transition: max-height 0.5s ease;
+        opacity: 0.85;
+    }
+    .form-control {
+        height: 45px;
+        padding: 10px;
+        font-size: 16px;
+        box-shadow: none;
+        border-radius: 0;
+        position: relative;
+    }
+</style>
+<section class="h-100 gradient-custom-2" style="background-image: url('img/home_background2.jpg'); height: 100vh;">
+    <div class="fluid-container">
+        <center>
+            <nav class="navbar navbar-expand-lg navbar-dark justify-content-between fixed-top text-white" style="background-color: #220b36;">
+                <a class="navbar-brand" href="#">
+                    <img src="../img/combine.gif" width="51" height="8" class="d-inline-block" alt="" />
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/feed">News feed </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/demandeami">Add request</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notifications</a>
+                    </li>
+                </ul>
+                <form class="form-inline ml-auto" method="post" action="/profil">
+                    <input class="form-control mr-sm-2" type="search" name="searchVal" placeholder="Recherche" aria-label="Search" />
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </center>
+    </div>
+    <br />
+    <br />
+    <br />
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <div id="sidebar-container" class="sidebar-expanded col-2 d-none d-md-block">
+        <ul class="list-group sticky-top sticky-offset">
+            <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start text-white">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-user fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Profile</span>
+                    <span class="submenu-icon ml-auto"></span>
+                </div>
+            </a>
+            <!-- Submenu content -->
+            <div id="submenu1" class="collapse sidebar-submenu">
+                <a href="/profil" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">My profile</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Settings</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Log out</span>
+                </a>
+            </div>
+            <a href="#" class="bg-dark list-group-item list-group-item-action text-white">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Find friends</span>
+                </div>
+            </a>
+            <a href="#" class="bg-dark list-group-item list-group-item-action text-white">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Messages <span class="badge badge-pill badge-primary ml-2">5</span></span>
+                </div>
+            </a>
+        </ul>
+    </div>
+    <div class="container bootstrap snippets bootdey">
+        <hr />
+        <ol class="breadcrumb">
+            <li><a href="#">Page name</a></li>
+            <li><a href="#">Search Results</a></li>
+            <li class="pull-right">
+                <a href="" class="text-muted"><i class="fa fa-refresh"></i></a>
+            </li>
+        </ol>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                {% for item in data %} {% for friend in item %}
+                <div class="well search-result">
+                    <div class="row">
+                        <a href="/search/{{friend[0]}}">
+                            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+                                <img src="{{friend[15]}}" class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1;" />
+                            </div>
+                            <div class="col-xs-6 col-sm-9 col-md-9 col-lg-10 title">
+                                <h3>{{friend[3]}} {{friend[][4]}}</h3>
+                                Favorites Games :
+                                <p>{{friend[9]}}</p>
+                                <p>{{friend[10]}}</p>
+                                <p>{{friend[11]}}</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <br />
+                {% endfor %} {% endfor %}
+                <div class="row">
+                    <button type="button" class="btn btn-info btn-block"><i class="glyphicon glyphicon-refresh"></i>Load more...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
