@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modifier 1`] = `
+<div
+  className="ion-page"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <ion-card
+      onClick={[Function]}
+    >
+      <ion-card-header>
+        <ion-card-title>
+          Jour
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-select>
+          <ion-select-option>
+            Lundi
+          </ion-select-option>
+          <ion-select-option>
+            Mardi
+          </ion-select-option>
+          <ion-select-option>
+            Mercredi
+          </ion-select-option>
+          <ion-select-option>
+            Jeudi
+          </ion-select-option>
+          <ion-select-option>
+            Vendredi
+          </ion-select-option>
+          <ion-select-option>
+            Samedi
+          </ion-select-option>
+          <ion-select-option>
+            Dimanche
+          </ion-select-option>
+        </ion-select>
+      </ion-card-content>
+    </ion-card>
+    <ion-card
+      onClick={[Function]}
+    >
+      <ion-card-header>
+        <ion-card-title>
+          Heure
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-input />
+      </ion-card-content>
+    </ion-card>
+    <ion-card
+      onClick={[Function]}
+    >
+      <ion-card-header>
+        <ion-card-title>
+          Notifier avant:
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-input />
+      </ion-card-content>
+    </ion-card>
+    <ion-button
+      onClick={[Function]}
+    >
+      Terminer
+    </ion-button>
+  </form>
+</div>
+`;

@@ -1,0 +1,144 @@
+.hydButton {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.hydImg {
+  position: relative;
+  width: 130px;
+  height: 145px;
+  bottom: 59px;
+  border-radius: 15%;
+  display: flex;
+  right: 6.5px;
+}
+
+
+.divHydra {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 96%;
+  height: 120px;
+  --ion-background-color: #FFFFFFFF;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+
+  --padding-start: 0px;
+  --inner-padding-end: 0px;
+
+}
+
+.titreHydra {
+  position: relative;
+  margin: auto;
+  display: flex;
+  left: 34%;
+  top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  color: #707070;
+
+}
+
+
+.titreLitre {
+  position: relative;
+  margin: auto;
+  display: flex;
+  left: 78%;
+  bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #707070;
+
+}
+
+
+.hydraCible {
+  position: absolute;
+  background-color: #24A78817;
+  font-size: 9px;
+  font-weight: bold;
+  color: #707070;
+  top: 60px;
+  left: 38%;
+}
+
+
+.hydraLimite {
+  position: absolute;
+  background-color: #e7d25817;
+  font-size: 9px;
+  font-weight: bold;
+  color: #707070;
+  top: 60px;
+  left: 60%;
+}
+
+.hydraAutre {
+  position: absolute;
+  background-color: #e7d25817;
+  font-size: 12px;
+  color: #707070;
+  top: 95px;
+  left: 38%;
+}
+
+.macro {
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+.divtotalQuant {
+  font-size: 2.0rem;
+}
+.divtotalEdit {
+  font-size: 1.2rem;
+}
+
+.fenetreModale {
+
+  padding-right: 10px;
+
+  padding-left: 10px;
+
+}
+
+.quantite {
+  font-size: 10px !important;
+}
+
+ion-item{
+  padding: 0 !important;
+  --padding-end: 0px;
+  --inner-padding-end: 0px;
+  --padding-start: 0px;
+  --inner-padding-start: 0px;
+}
+
+.icon {
+  padding-left: 25px;
+  background: src="/assets/cup_water.png" no-repeat left;
+  background-size: 20px;
+}
+
+.titleModal {
+  position: relative;
+  left: 14vw;
+  bottom: 11.5vw
+}
+
+.headerModal {
+   max-height : 55px;
+}
+
+ion-item .item-inner {
+  border-right: 0px !important;
+  border-left: 0px !important;
+
+}

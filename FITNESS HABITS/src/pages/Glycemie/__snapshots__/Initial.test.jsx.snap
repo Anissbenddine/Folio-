@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Initial 1`] = `
+<div
+  className="ion-page"
+>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Notifications glycémie
+      </ion-title>
+    </ion-toolbar>
+    <ion-fab>
+      <ion-fab-button
+        onClick={[Function]}
+      >
+        <ion-icon />
+      </ion-fab-button>
+    </ion-fab>
+  </ion-header>
+  <ion-content />
+  <ion-fab>
+    <ion-fab-button
+      onClick={[Function]}
+    >
+      <ion-icon />
+    </ion-fab-button>
+  </ion-fab>
+</div>
+`;

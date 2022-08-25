@@ -1,0 +1,266 @@
+.input-activity-button {
+    margin-inline: 60px;
+    margin-top: 20px;
+    --background: #AA55D9;
+    --background-hover: #AA55D9CF;
+    --background-focused: #AA55D9CF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.inputGroupActivity {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.inputActivity {
+    --border-width: 0 0 0 0;
+    width: 100%;
+}
+
+.label-activity {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #707070 !important;
+}
+
+.time-format-activity {
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #707070 !important;
+    border-bottom: 1px solid;
+}
+
+.select-intensity-activity-parent {
+    --background: #f5f5f5;
+}
+
+.select-intensity-activity-parent>ion-select {
+    min-width: 100%;
+}
+
+.select-intensity-activity-parent>ion-select::part(text),
+.select-intensity-activity-parent>ion-select::part(placeholder) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+.buttonActivityGroup {
+    display: flex;
+}
+
+.buttonActivityItem {
+    width: 100%;
+}
+
+.buttonActivityItem>ion-button {
+    margin-inline: 0px;
+    width: 95%;
+}
+
+.activity-modal-big {
+    --height: 80%;
+    --width: 90%;
+    --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+}
+
+.activity-modal-xsmall {
+    --height: 35%;
+    --width: 90%;
+    --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+}
+
+.activity-modal-xxsmall {
+    --height: 30%;
+    --width: 90%;
+    --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+}
+
+.fontPractice {
+    font-size: 12px;
+}
+
+.activity-content {
+    --padding-bottom: 10px;
+    --padding-end: 10px;
+    --padding-start: 20px;
+    --padding-top: 20px;
+}
+
+.activityTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #AA55D9;
+}
+
+.activityInfo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #AA55D9;
+}
+
+.activityInfoNoColor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.activityItemCol {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: grey;
+    margin-left: 5px;
+}
+
+.fontInputActivity {
+    font-size: 13px;
+}
+
+.fontInputActivityGrey {
+    font-size: 13px;
+    color: grey;
+}
+
+.activityDateLittle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    display: flex;
+}
+
+.date-format-small {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+.activityItem {
+    padding: 5px;
+    border-bottom-color: rgb(0, 0, 0, 0.1);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.activityName {
+    color: rgb(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.activityOther {
+    color: rgb(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.addButtonActivity {
+    font-size: xx-large;
+}
+
+.inputFormActivity {
+    height: 4vh;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+}
+
+hr.lineSeparatorActivity {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 7px;
+    display: block;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+
+.lineSeparatorActivity::before  {
+    background-color: #AA55D9;
+    width: 40%;
+    content: "";
+    display: block;
+    top: -10px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 7px;
+}
+
+.rowAddButtonActivity {
+    justify-content:center;
+    margin-top: 15px
+}
+
+/* Overview */
+
+.overviewIcon {
+    width: 120px;
+    height: 120px;
+    float: left;
+    --padding-start: 0px;
+    border-bottom: 0px;
+    border-radius: 8px;
+    background-color:#AA55D9;
+    --inner-padding-end:0px;
+}
+
+.overviewInfos {
+    background-color: #FFFFFF;
+    height: 120px;
+    float: right;
+    border-bottom: 0px;
+    --padding-start: 10px;  
+}
+
+.overviewTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color:#707070
+}
+
+.dailyDuration {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #707070;
+    justify-content:right;
+}
+
+.dailyIntensity {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color:#707070;
+    justify-content:right;
+}
+
+.overviewTarget {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color:#707070;
+    background-color: #24A78817;
+}
+
+.overviewWeekly{
+    color:#707070;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}

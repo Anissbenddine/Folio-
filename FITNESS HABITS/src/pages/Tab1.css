@@ -1,0 +1,2638 @@
+.or-format {
+    text-align: center;
+}
+
+.icon-facebook-format {
+    font-size: 32px;
+    padding-right: 10%;
+    color: white;
+    text-shadow: black;
+}
+
+.icon-google-format {
+    padding-right: 10%;
+    margin-right: 6%;
+    position: relative;
+    font-size: 32px;
+    color: white;
+    text-shadow: black;
+}
+
+.register-button-right {
+    width: 62%;
+    float: right;
+}
+
+.login-button-left {
+    width: 35%;
+    float: left;
+}
+
+.welcome-card img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.Collapsible__contentOuter{
+  background: #e22525;
+}
+
+.date-format-popover .popover-content{
+  width: 50%;
+}
+
+.divImgSett{
+ margin-top: 18px;
+padding: 2px;
+border-radius: 10px;
+background-color: #ffffff;
+border-style: solid;
+border-color: #015871;
+border-width: 1px;
+}
+
+.sett{
+  width: 100%;
+  height: 225px;
+  overflow-y:
+  scroll;
+}
+
+.ionRadio{
+  position: relative;
+}
+
+.trashButton {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.triangleAlcool{
+  border-bottom: 50px solid #db4e3e;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+  width: 100px;
+  position: relative;
+  right: -20px;
+}
+
+.triangle{
+  width:100px;
+  height:0px;
+  background:black;
+  border:20px solid;
+  border-left: 40px solid;
+  border-right: 40px solid;
+  border-top-color: brown;
+  border-left-color: #db4e3e;
+  border-right-color: #589051;
+  border-bottom-color: rgb(202, 154, 23);
+  position: relative;
+  margin-left: 5px;
+}
+
+.triangle1{
+  width:70px;
+  height:40px;
+  background:black;
+  border:20px solid;
+  border-left: 35px solid;
+  border-right: 35px solid;
+  border-top-color: brown;
+  border-left-color: #db4e3e;
+  border-right-color:#589051;
+  border-bottom-color: rgb(202, 154, 23);
+  position: relative;
+  right: 7px;
+}
+
+.triangleText1{
+  position: absolute;
+  top: 3px;
+  bottom:0px;
+  right: -6px;
+  font-size: 13px;
+  color: #fcf8f8;
+}
+
+.triangleText2{
+  position: absolute;
+  top: -21px;
+  right: -6px;
+  font-size: 13px;
+  color: #fcf8f8;
+  }
+
+  .triangleText3{
+  position: absolute;
+  top: -9px;
+  bottom: -8px;
+  left:35px;
+  font-size: 13px;
+  color: #fcf8f8;
+  }
+
+.triangleText4{
+  position: absolute;
+  top: -9px;
+  bottom: 0;
+  right: 30px;
+  font-size: 13px;
+  color: #fcf8f8;
+  }
+
+.triangleText1-1{
+  height: 6px;
+  width: 20px;
+  position: absolute;
+  padding-top: 5px;
+  margin-left: -9px;
+  color: #fcf8f8;
+  font-size: 10px;
+  text-align: center;
+}
+
+.triangleText2-2{
+  height: 6px;
+  width: 20px;
+  position: absolute;
+  margin-top: -17px;
+  margin-left: -9px;
+  color: #fcf8f8;
+  font-size: 10px;
+  text-align: center;
+  }
+
+.triangleText3-3{
+  height: 6px;
+  width: 20px;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -25px;
+  color: #fcf8f8;
+  font-size: 10px;
+  text-align: center;
+  }
+
+.triangleText4-4{
+  height: 6px;
+  width: 20px;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: 13px;
+  color: #fcf8f8;
+  font-size: 10px;
+  }
+
+.nameDscripDashboard{
+  margin-left: -17px;
+}
+
+.nameDscripDashboard h2{
+  font-size: 15px;
+  color: #000000;
+}
+
+.nameDscrip{
+  margin-left: -17px;
+}
+
+.nameDscrip h2{
+  font-size: 10.75px;
+  color: #000000;
+}
+
+.unitDescrip{
+  background-color: #BCC2C1;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.unitDescrip h2{
+  font-size: 12px;
+  color: #000000;
+}
+
+.login-image{
+  position: absolute;
+}
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: hidden;
+}
+
+.list-details{
+  background-color: #558888;
+}
+
+.list img {
+  width: auto;
+}
+
+.param-titre {
+font-size: 16px;
+text-shadow: black;
+color: #d66437;
+}
+
+.button-left, .button-right {
+  font-size: 50px;
+  color: #d66437;
+  text-shadow: black;
+}
+
+.menu {
+  margin-left: 120px;
+  font-size: 50px;
+  color: #d66437;
+  text-shadow: black;
+  padding-right: 30px;
+  padding-left: 0px;
+}
+
+.time{
+  text-align: center;
+}
+
+.button-right {
+  padding-right: 50px;
+  }
+
+.button-left {
+  padding-left: 0px;
+  padding-right: 70px;  
+}
+
+.buttonHeaderDash{
+  size: 50%;
+  padding-bottom: 0px;
+  padding-top: 2px;
+  background-color: #aabb99;
+}
+
+.buttonTimeLeft{
+  font-size: 26px;
+  color: #d66437;
+  text-shadow: black;
+}
+
+.buttonTime {
+color: #ffffff;
+}
+
+.buttonTimeRight{
+  font-size: 26px;
+  color: #d66437;
+  text-shadow: black;
+}
+
+.footer {
+  display:inline;
+}
+
+.save, .target, .settings {
+  font-size: 28px;
+  color: #d66437;
+  text-shadow: black;
+}
+.target{
+  font-size: 24px;
+  color: #cc890d;
+  text-shadow: black;
+  margin-left: 0px;
+}
+
+.targetLanguage, .targetProfil{
+  font-size: 26px;
+  color: #3e554a;
+  text-shadow: black;
+}
+
+.starFavoris{
+  font-size: 20px;
+  color: #5c3d0c;
+  text-shadow: #5c3d0c;
+  margin-left: center;
+
+}
+
+.active {
+  color: #dbb600;
+}
+
+.labelAddItem{
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 7px;
+  margin-bottom: 1px;
+}
+
+.arrow {
+  font-size: 20px;
+  color: #f7e8ca;
+  text-shadow: black;
+}
+
+.arrowDashItem {
+  font-size: 25px;
+  color: #f7e8ca;
+  text-shadow: black;
+}
+
+.text{
+  font-size: 8px;
+  text-shadow: black;
+}
+.text h3{
+  font-size: 9px;
+  font-weight: bold;
+  color: #f8e8d6;
+}
+
+ .datePickerPage{
+  z-index:200;
+  background-color: #f7e8ca;
+ }
+
+ .datePicker {
+  margin: -40px;
+  background-color: #f7e8ca;
+  width: 120px;
+  font-weight: bolder;
+ }
+
+ .headerTitleDashboard h3{
+   /* padding-top: 5px; */
+  font-size: 18px;
+  font-family: fantasy;
+  font-weight: bolder;
+  color:#f7e8ca;
+  text-align: center;
+  /* margin-left: 130px; */
+ }
+
+ .profilTitleDashboard h3{
+  padding-top: 5px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color:#4b5343;
+  margin-left: 0px;
+
+ }
+
+ .dashed-box{
+  background-color: #684b11;
+  width: 50px;
+  height: 50px;
+ 
+ }
+ .veg-box{
+  z-index: 0;
+
+ }
+
+ .headerTitleActivities{
+  font-size: 20px;
+  font-stretch: semi-condensed;
+  color:  #1a5a5a;
+  font-weight: bolder;
+  margin-top: 10px;
+ }
+
+ .headerTitle{
+  font-size: 20px;
+  font-stretch: semi-condensed;
+  color:  #1a5a5a;
+  font-weight: bolder;
+ }
+
+ .headerTitle h1{
+  color: #1a5a5a;
+ }
+ 
+ #materialSelectSupp{
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+ #materialSelect{
+  padding: 1px;
+  margin-right: -3px;
+  margin-left: 3px;
+  width: 35px;
+  font-size: 13px;
+  font-weight: bold;
+ }
+
+ #materialSelectCibleQuot{
+  padding: 1px;
+  width: 60px;
+  font-size: 13px;
+  font-weight: bold;
+ }
+
+ #materialSelectAddHyd{
+  padding: 1px;
+  margin-right: 18px;
+  margin-left: -20px;
+  width: 60px;
+  font-size: 13px;
+  font-weight: bold;
+ }
+ 
+ #PopUpUnitSelect{
+  margin-top: 0px;
+  margin-left: -28px;
+  padding: 0px;
+  width: 60px;
+ }
+
+ .ajoutBotton{
+   width: 100%;
+   padding-top: 4px;
+   display: inline-block;
+   vertical-align: middle;
+   background-color: #fcf0c9;
+   --ion-background-color:#faf2d9;
+   height: 30px;
+ }
+
+ .joggingTitle{
+  font-size:16px;
+  font-stretch: semi-condensed;
+  margin-top: 6px;
+  color: #000000;
+  text-align: center;
+ }
+
+ #cibleQtte{
+  font-size:16px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  font-stretch: semi-condensed;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-right: 10px;
+  color: #000000;
+  text-align: center;
+ }
+
+ .cibleTitle h3{
+  font-size:16px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  font-stretch: semi-condensed;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-right: 4px;
+  color: #000000;
+}
+
+.description h3{
+  font-size:12px;
+  font-weight: bolder;
+  margin-top: 5px;
+  font-stretch: semi-condensed;
+}
+
+.divHyd{
+  height: 122px;
+  width: 100%;
+  overflow-y:
+  scroll;
+}
+
+.ajoutbreuvage1{
+  padding-left: 0px;
+  padding-bottom: 12px;
+}
+
+.ajoutbreuvage2{
+  padding-left: 0px;
+  padding-bottom: 12px;
+}
+
+.cibleText{
+  color: #dff0d8;
+}
+
+.descriptionSupp{
+  font-size:14px;
+  padding-left: 15px;
+  padding-right: 10px;
+  margin-right: 0px;
+  margin-top: 5px;
+  font-stretch: semi-condensed;
+}
+
+.taillePortionSupp h3{
+  font-size:14px;
+  padding-left: 20px;
+  margin-left: -20px;
+  font-stretch: semi-condensed;
+  text-align: center;
+}
+
+.uniteMesureSupp h3{
+  font-size:14px;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-right: -20px;
+  font-stretch: semi-condensed;
+  text-align: center;
+}
+
+.uniteFrequenceSupp h3 {
+  font-size:14px;
+  padding-left: -50px;
+  margin-left: 0px;
+  padding-right: 0px;
+  font-stretch: semi-condensed;
+  text-align: center;
+}
+
+.unitePeriodeSupp h3{
+  font-size:14px;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-right: 100px;
+  font-stretch: semi-condensed;
+  text-align: center;
+}
+
+.uniteMesure h3{
+  font-size:12px;
+  font-weight: bolder;
+  margin-right: 0px;
+  margin-top: 5px;
+  font-stretch: semi-condensed;
+  text-align: center;
+}
+
+.taillePortion h3{
+  font-size:12px;
+  font-weight: bolder;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 5px;
+  font-stretch: semi-condensed;
+  text-align: center;
+}
+
+.divAddText{
+  font-size: 10px;
+  margin-right: 20px;
+}
+
+.divAddTextNut{
+
+  font-size: small;
+  text-align: center;
+}
+
+.nourTextInput input::-webkit-outer-spin-button,
+.nourTextInput input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+ .labelSettings header h3 .IonItem{
+  font-size:18px
+}
+
+.labelSettings .IonItem{
+  --ion-background-color:#eed996;
+}
+
+.labelSettings1{
+  left: -100px;
+  color: #000000;
+}
+
+.labelSettings2{
+  right: 216px;
+  bottom: 3px;
+  position: absolute;
+  color: #000000;
+}
+
+.labelSettings1 h3{
+  font-size:12px;
+  margin-left: 20px;
+}
+
+.labelSettings2 h3{
+  font-size:12px;
+}
+
+.labelSettings1-1-4{
+  left: -100px;
+  color: #000000;
+}
+
+.labelSettings2-2-4{
+  right: 216px;
+  bottom: 5px;
+  position: absolute;
+  color: #000000;
+}
+
+.labelSettings1-1-4 h3{
+  font-size:14px;
+  margin-left: 10px;
+}
+
+.labelSettings2-2-4 h3{
+  font-size:14px;
+}
+
+.ionRadio1-1-4{
+  position: absolute;
+  bottom:6px;
+  right:210px;
+  width: 1em;
+  height: 1em;
+}
+
+.ionRadio2-2-4{
+  position: absolute;
+  bottom:6px;
+  right: 160px;
+  width: 1em;
+  height: 1em;
+}
+
+.labelSettings1-1-5{
+  left: -100px;
+  color: #000000;
+}
+
+.labelSettings2-2-5{
+  right: 216px;
+  bottom: 5px;
+  position: absolute;
+  color: #000000;
+}
+
+.labelSettings1-1-5 h3{
+  font-size:14px;
+  margin-left: 10px;
+}
+
+.labelSettings2-2-5 h3{
+  font-size:14px;
+}
+
+.ionRadio1-1-5{
+  position: absolute;
+  bottom:6px;
+  right:210px;
+  width: 1em;
+  height: 1em;
+}
+
+.ionRadio2-2-5{
+  position: absolute;
+  bottom:6px;
+  right: 160px;
+  width: 1em;
+  height: 1em;
+}
+
+.labelSettings1-1-6{
+  left: -100px;
+  color: #000000;
+}
+.labelSettings2-2-6{
+  right: 216px;
+  bottom: 5px;
+  position: absolute;
+  color: #000000;
+}
+
+.labelSettings1-1-6 h3{
+  font-size:14px;
+  margin-left: 10px;
+}
+
+.labelSettings2-2-6 h3{
+  font-size:14px;
+}
+
+.ionRadio1-1-6{
+  position: absolute;
+  bottom:6px;
+  right:210px;
+  width: 1em;
+  height: 1em;
+}
+
+.ionRadio2-2-6{
+  position: absolute;
+  bottom:6px;
+  right: 160px;
+  width: 1em;
+  height: 1em;
+}
+
+.labelSettings1-1 h3{
+  font-size:14px;
+  position: absolute;
+  margin-left: 15px;
+  bottom: 12px;
+  color: #000000;
+}
+
+.labelSettings2-2 h3{
+  font-size:14px;
+  margin-left: 60px;
+  bottom: 12px;
+  position: absolute;
+  color: #000000;
+}
+
+.labelSettings1-1-1 h3{
+  font-size:11px;
+  position: absolute;
+  margin-left: 13px;
+  top: -5px;
+  color: #646464;
+}
+
+.labelSettings2-2-2 h3{
+  font-size:11px;
+  margin-left: 63px;
+  top: -5px;
+  position: absolute;
+  color: #646464;
+}
+
+.cibleQuotid{
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  --ion-background-color:#eed996;
+}
+
+.notifHeader{
+  --ion-background-color: rgb(231, 165, 79);
+  padding: 0;
+  margin-right: 0px;
+}
+
+.notifHeader h3{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.notifHeader h2{
+  font-size: 13px;
+  font-weight: bold;
+  color: #752222;
+}
+
+.limiteConsom{
+  padding: 0;
+  margin: 5px 0;
+  --ion-background-color:#eed996;
+}
+
+.inputConsom{
+  font-size:16px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  font-stretch: semi-condensed;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-right: 10px;
+  color: #000000;
+  text-align: center;
+ }
+
+.ionRadio1{
+  position: absolute;
+  bottom:3px;
+  right:210px;
+  width: 1em;
+  height: 1em;
+}
+
+.ionRadio2{
+  position: absolute;
+  bottom:3px;
+  right: 160px;
+  width: 1em;
+  height: 1em;
+}
+
+.ionRadio1-1{
+  position: absolute;
+  bottom:3px;
+  right:210px;
+  width: 1em;
+  height: 1em;
+}
+.ionRadio2-2{
+  position: absolute;
+  bottom:3px;
+  right: 160px;
+  width: 1em;
+  height: 1em;
+}
+
+.ionRadio1-1-1{
+  position: absolute;
+  top:-15px;
+  right:40px;
+  width: 1em;
+  height: 1em;
+}
+.ionRadio2-2-2{
+  position: absolute;
+  top:-15px;
+  right: -12px;
+  width: 1em;
+  height: 1em;
+}
+
+.labelSettingsCible{
+  padding-bottom: 5px;
+}
+
+ .joggingTitle h1{
+  position: relative;
+  font-size:26px;
+ padding-top: 4px;
+ padding-left: 50px;
+ font-stretch: semi-condensed;
+}
+
+.joggingTitle h3{
+  font-size:16px;
+ font-weight: bold;
+}
+
+#divPopUp1{
+  position: relative;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp1 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp1 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#close {
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#eee3c5;
+  border-radius: 20%;
+}
+.buttonClose{
+  margin-top: 2px;
+  font-size: 10px;
+}
+.buttonCloseEdit{
+  margin-top: 0px;
+  margin-right: 20px;
+  font-size: 10px;
+}
+
+#divPopUp1-1{
+  position: absolute;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -110px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp1-1 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp1-1 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+.editButton{
+  margin-left: 10px;
+  margin-right: 14px;
+}
+
+.AddButtonHydr{
+  margin-left: -20px;
+  margin-right: 60px;
+}
+
+#divPopUp2{
+  position: relative;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp2 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp2 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp2-2{
+  position: absolute;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp2-2 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp2-2 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp3{
+  position: relative;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp3 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp3 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp3-3{
+  position: absolute;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp3-3 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp3-3 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp4{
+  position: relative;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp4 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp4 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp4-4{
+  position: absolute;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp4-4 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp4-4 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+
+#divPopUp5{
+  position: relative;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp5 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp5 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp5-5{
+  position: absolute;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp5-5 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp5-5 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+
+#divPopUp6{
+  position: relative;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp6 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp6 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp6-6{
+  position: absolute;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp6-6 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp6-6 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp7{
+  position: relative;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp7 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp7 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp7-7{
+  position: absolute;
+  display: none;
+  height: 80px;
+  width: auto;
+  margin-left: 0px;
+  margin-top: -80px;
+  z-index: 1000;
+  background-color: #eee8d8;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(9, 129, 165);
+}
+
+#divPopUp7-7 button{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  left: 160px;
+  border-radius: 20%;
+}
+
+#divPopUp7-7 span{
+  font-weight: bolder;
+  color: #ffffff;
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#0f659e;
+  right: 160px;
+  border-radius: 20%;
+}
+
+.inputProfilText{
+  font-size: 18px;
+  font-weight: bold;
+  color: #015871;
+}
+
+ .profilTitle h3{
+  font-size:20px;
+  padding-top: 5px;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+.divIMC{
+  height: 15px;
+  width: 40px;
+  margin: 0px;
+  margin-left: 220px;
+  padding-left: 8px;
+  border-radius: 10%;
+  background-color: #eec231;
+  border-style: solid;
+  border-color: #015871;
+  border-width: 1px;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #1a5a5a;
+}
+
+.divImgSettLogo{
+border-radius: 10px;
+width: 100%;
+background-color: #ffffff;
+}
+
+.fondIntro{
+    background-image: linear-gradient(#0072ff,#00c6ff);
+}
+
+.logoSideBar{
+  width: 70%;
+  padding-left: 60px;
+}
+
+.logoIntro{
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.profilText h2{
+  font-size:18px;
+ /* padding-top: 0px; */
+ /* font-stretch: semi-condensed; */
+ /* margin-top: 0px; */
+ color: #1a5a5a;
+}
+
+.profilText {
+ background-color: #f7e8ca;
+}
+
+.noPadding{
+  padding: 0px;
+}
+
+.profilImage{
+  padding-top: 30px;
+  margin-left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+ .iconActivitie{
+  padding-top: 5px;
+  font-size: 32px;
+  margin-top: 3px;
+ }
+
+ .texteAlcool h1 {
+  padding-top: 13px;
+  color: #1a5a5a;
+  font-weight: bold;
+  font-stretch: semi-condensed;
+
+ }
+
+ .removeButton{
+  margin-left: 220px;
+ }
+
+ .removeButton1{
+  margin-left: 300px;
+ }
+
+ .inputTextDashboard{
+  font-weight: bold;
+  font-size: small;
+ }
+
+ .inputTextActivities{
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
+
+  /* text-align:center; */
+ }
+  .buttonActivities{
+    width: 7px;
+  }
+
+ .unitActivities {
+  margin-right: 80px;
+ }
+
+ .inputTextNourDasboard{
+  width: 80%;
+  height: 60%;
+  background-color: #e7dcdc;
+  right: 30px;
+  border-radius: 5px;
+ }
+
+ .inputTextGly{
+  width: 80%;
+  height: 60%;
+  background-color: #e7dcdc;
+  right: 60px;
+  border-radius: 5px;
+ }
+
+ .inputTextGly h3{
+  font-size:large;
+  font-weight: bold;
+  text-align: center;
+  color: #463f3f;
+ }
+
+ .ionSelect{
+  color: #f7e8ca;
+  font-weight: bold;
+  font-size: small;
+ }
+
+ .ajoutActivitieText{
+   padding-top: 5px;
+   padding-left: 90px;
+   font-weight: bold;
+ }
+
+ .my-custom-class {
+  --background: #e5e5e5;
+}
+
+/* DOES NOT WORK - not specific enough */
+.alert-wrapper {
+  background: #e5e5e5;
+}
+
+/* Works - pass "my-custom-class" in cssClass to increase specificity */
+.my-custom-class .alert-wrapper {
+  background: #e5e5e5;
+}
+
+.pageProfil {
+  width: 100%;
+  height: 100%;
+}
+
+.chartBackground{
+  color: #778a62;
+}
+
+.toiletButton1{
+  height: 30px;
+  width: 30px;
+  background-color: #5c4401;
+  border-radius: 30%;
+}
+
+.toiletButton1 div{
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.toiletButton2{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(235, 221, 29);
+  border-radius: 30%;
+}
+
+.toiletButton2 div{
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+.add1{
+  background-color: #e9d165;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.min2{
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.min1{
+  background-color: #e9d165;
+  font-size: 20px;
+}
+
+.add2, .min2{
+  background-color: #7a5711;
+  font-size: 20px;
+}
+
+.divToilet1 {
+  height: 35px;
+  width: 35px;
+  background-color: #f7e8ca;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.divToilet2 {
+  height: 35px;
+  width: 35px;
+  background-color: #f7e8ca;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.separateDiv {
+  margin: 5px;
+}
+
+.sideBarButtonCamera{
+  width: 30px;
+  height: 30px;
+  background-color: #f7e8ca;
+  border-radius: 30%;
+  padding-top: 4px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.sideBarButtonDelete {
+  width: 30px;
+  height: 30px;
+  background-color: #d31515;
+  border-radius: 72%;
+  padding-top: 4px;
+  margin-left: 80px;
+  margin-top: 0px;
+  color: white;
+}
+
+.sideBarButtonLogout{
+  width: 30px;
+  height: 30px;
+  margin-top: 50px;
+  border-radius: 30%;
+  background-color: #f7e8ca;
+  margin-right: -1px;
+}
+
+.sideBarButton{
+  width: 30px;
+  height: 30px;
+  background-color: #f7e8ca;
+  border-radius: 30%;
+  padding-top: 5px;
+  margin-left: 50px;
+}
+
+.sideBarHeader{
+  background-color: #0e3530;
+}
+
+.sideBarHeaderTitle{
+  background-color: #0e3530;
+}
+.whiteBackground{
+  --ion-background-color: white;
+  background-color: white;
+}
+
+
+.sidebar {
+  height: 100%;
+  background-color:#6f7e61;
+  color: white;
+  width: 350px;
+  position: fixed;
+  z-index: 200;
+  left: -100%;
+  animation: slide-open 0.75s forwards;
+  background-size: 2em 2em;
+  flex: 1 1 auto;
+  --ion-background-color:#90a17f;
+}
+
+.sidebarfooter{
+  height: 20px;
+}
+
+.alert {
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
+.newDiv1, .newDiv2, .newDiv3, .newDiv4  {
+  height: 400px;
+  margin-left: 80px;
+  background-color:#ffffff;
+  opacity: 0.93;
+  color: white;
+  width: 400px;
+  position: fixed;
+}
+
+.sidebar.close {
+  left: -100%;
+}
+
+@keyframes slide-open {
+  100% { left:0}
+}
+
+.grid-container {
+  height: 10px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #1a5a5a;
+}
+
+.grid-item {
+  background-color: #aabb99;
+  border: 1px solid #ddcfc9;
+  padding-top: 3px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.userNameProfil{
+ margin-top:30px;
+ margin-left:30px;
+}
+
+.userNameProfil h3{
+  font-size: 25px;
+  color: #dff0d8;
+ }
+
+.avatarProfil{
+  height: 100px;
+  width: 100px;
+  background-color: #f7e8ca;
+  margin-left: 50px;
+  /* margin-bottom: -10px; */
+  margin-top: -20px;
+}
+
+/* best seen at 1500px or less */
+
+html, body { height: 100%; }
+body {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+}
+
+.ocean { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+
+#listNourriture{
+  margin: 0px;
+  padding: 0px;
+}
+
+#myDIV1, #dairyProducts, #grainFood,
+#vegetables, #proteinFood, #fruit, #myDIV6,
+#myDIV7, #myDIV8, #myDIV9, #myDIV22{
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #eed996;
+  display: none;
+}
+
+ #myDIV22{
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #eed996;
+  display: none;
+}
+#myDIV33{
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #eed996;
+  display: none;
+}
+
+.descripItem{
+  --ion-background-color:#f5e5b0;
+}
+
+.descripItemSupp{
+  --ion-background-color:#f5e5b0;
+}
+
+.Toilette01{
+  float:right;
+  display:inline-block;
+  margin-right: 2px;
+  background:#f7e707;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.Toilette02{
+  float:right;
+  display:inline-block;
+  background:#c24d0a;
+  padding-left: 0px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+h2{
+  color: #ffffff;
+  padding-right: 200px;
+}
+
+.divAdd {
+  top: 2px;
+  width: auto;
+  --ion-background-color:#eed996;
+}
+
+.colNutProteinesHyd {
+  background-color:  brown;
+  text-align: center;
+}
+
+.divMacroAdd{
+  font-size: 8px;
+  color: white;
+}
+
+.colNutGlucidesHyd {
+  background-color:  #db4e3e;
+  text-align: center;
+}
+
+.colNutFibresHyd {
+  background-color:  #589051;
+  text-align: center;
+}
+
+.colNutGrasHyd {
+  background-color: rgb(202, 154, 23);
+  text-align: center;
+}
+
+.divTitre1 {
+  padding: 0;
+  margin: 2px 0;
+
+  --ion-background-color:rgb(125, 211, 240);
+}
+.divTitre2 {
+  z-index: 3;
+  padding: 2px 0;
+  --ion-background-color: rgb(6, 87, 66);
+}
+
+.ionlistNourrSettings {
+  padding: 0px;  
+}
+
+.divTitre3 {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 120px;
+  --ion-background-color: #FFFFFFFF
+  ;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+
+  --padding-start: 0px;
+  --inner-padding-end: 0px;
+}
+
+.divTitre4 {
+  z-index: 3;
+  padding: 2px 0;
+  --ion-background-color: rgb(110, 30, 61);
+}
+
+.divTitre5 {
+  z-index: 3;
+  padding: 2px 0;
+  --ion-background-color: rgb(187, 163, 57);
+}
+
+.divTitre6 {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 120px;
+    --ion-background-color: #FFFFFFFF
+;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+
+    --padding-start: 0px;
+    --inner-padding-end: 0px;
+
+}
+
+.divTitre7 {
+  z-index: 3;
+  padding: 2px 0;
+  --ion-background-color: rgb(21, 43, 63);
+}
+
+.divTitre8 {
+  z-index: 3;
+  padding: 2px 0;
+  --ion-background-color: rgb(231, 165, 79);
+}
+
+.divTitre9 {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 120px;
+  --ion-background-color: #FFFFFFFF
+  ;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+
+  --padding-start: 0px;
+  --inner-padding-end: 0px;
+ 
+}
+
+.divTitre11{
+  padding: 0;
+  margin: 0;
+  --ion-background-color:#eed996;
+}
+
+.divTitre22 {
+  padding: 0.5px 0;
+  z-index: 3;
+  --ion-background-color: rgb(42, 116, 98);
+}
+
+.divTitre33 {
+  z-index: 3;
+  padding: 2px 0;
+  --ion-background-color:  #eed996;
+}
+
+.multipleSelection { 
+  position: fixed;
+  /* width: 300px;  */
+  background-color: #BCC2C1; 
+} 
+
+.selectBox { 
+  position: fixed; 
+} 
+
+.selectBox select { 
+  /* width: 100%;  */
+  font-weight: bold; 
+} 
+
+.overSelect { 
+  position: fixed; 
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0; 
+} 
+
+#checkBoxes { 
+  display: none; 
+  border: 1px #8DF5E4 solid; 
+  overflow: hidden;
+  height: 60px;
+  width: 120px;
+} 
+
+#checkBoxes label { 
+  display: block; 
+} 
+
+#checkBoxes label:hover { 
+  background-color: #4F615E; 
+} 
+
+.scrollActivities {
+  z-index: 1;
+  position: fixed;
+  margin-left: 30px;
+  margin-left: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+.activitieCheck{
+  padding-top: 5px;
+}
+
+.eauItem{
+  --background: rgb(125, 211, 240);
+}
+
+.plusMoinsBotton {
+  padding-left: 30px;
+  padding-top: 7px;
+}
+
+.dashEau h3{
+  font-weight: bold;
+  padding-top: 8px;
+  padding-left: 50px;
+}
+/* Modal */
+.inputTextEau {
+  font-weight: bold;
+  padding-top: 8px;
+  right: 20px;
+}
+.dashPortionEau h3{
+  font-weight: bold;
+  padding-top: 8px;
+  padding-left: 10px;
+
+}
+.modal {
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/** Language page **/
+.langueName {
+  padding-left:20px;
+}
+.langueFlag {
+  height: 50px;
+  width: auto;
+}
+.flexCenter {
+  display: flex!important;
+  align-items: center;
+}
+.order-3 {
+  order:3;
+}
+.messagenotif {
+  background-color: #cac086;
+}
+.IonTextarea{
+  font-size: 10px;
+}
+.datePickersExportation{
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen 
+  and (min-device-width: 375px){
+    .grid-container{
+      margin-top: 30px; 
+    }
+    .sideBarHeader{
+      margin-top: 30px;
+    }
+    .settingsHeader{
+      margin-top: 30px;
+    }
+    .exportHeader{
+      margin-top: 30px;
+    }
+    .langHeader{
+      margin-top: 30px;
+    }
+    .notGlyAdd{
+      margin-top: 30px;
+    }
+    .notGlyChange{
+      margin-top: 30px;
+    }
+}
+.SizeChange{
+  background-color: #aabb99;
+}
+
+.arrow{
+  top: 0px;
+}
+
+.titre{
+  text-align: center;
+}
+
+.jour{
+  font-size: medium;
+  color: black;
+}
+
+.heure{
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+  right: 50px;
+}
+
+#totalMacroNutrient {
+  color: white;
+}
+
+.addFoodItemPopupLabels {
+  font-size: small;
+  font-weight: bold;
+  color: blue
+}
+
+#foodItemPopup {
+  --ion-background-color:#eed996;
+  border: #752222 solid;
+}
+
+/*Module activities*/
+
+.activity-modal-big {
+    --height: 80%;
+    --width: 90%;
+    --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+}
+
+.activity-modal-small {
+    --height: 50%;
+    --width: 90%;
+    --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+}
+
+.activity-modal-xsmall {
+    --height: 35%;
+    --width: 90%;
+    --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+}
+
+.activity-modal-xxsmall {
+    --height: 30%;
+    --width: 90%;
+    --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+}
+
+.fontPractice {
+    font-size: 12px;
+}
+
+.activity-content {
+    --padding-bottom: 10px;
+    --padding-end: 10px;
+    --padding-start: 20px;
+    --padding-top: 20px;
+}
+
+.activityTitle {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 34px;
+    color: #AA55D9;
+}
+
+.activityItem {
+    padding: 5px;
+    border-bottom-color: rgb(0, 0, 0, 0.1);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.activityName {
+    color: rgb(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.activityOther {
+    color: rgb(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.addButtonActivity {
+    font-size: xx-large;
+}
+
+.inputFormActivity {
+    height: 4vh;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+
+}
+
+hr.lineSeparatorActivity {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 7px;
+    display: block;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+
+.lineSeparatorActivity::before  {
+    background-color: #AA55D9;
+    width: 40%;
+    content: "";
+    display: block;
+    top: -10px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 7px;
+}
+
+/*Module activities - END*/
+
+
+
+.globalModule{
+  /*width: auto;*/
+  /*height: 90px;*/
+  margin-top: 5px;
+}
+
+.avatarClass {
+/*--ion-background-color: #D14F4F;*/
+/*   padding-left: 0px;*/
+  width: 100%;
+  height: 130px;
+}
+
+.popup{
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.2);
+position: fixed; 
+top: 0;
+left: 0;
+display: flex; 
+justify-content: center;
+/* align-items: center; */
+z-index: 100;
+}
+
+.popup-inner{
+position: relative;
+width: 100%;
+padding: 32px;
+/*max-width: 640px;*/
+max-width: 561px;
+background-color: rgb(255, 255, 255);
+}
+
+.avatarClass img{
+/*margin: 7px 13px;*/
+  margin: -40px 11px;
+  width: 75%;
+  height: 75%;
+}
+
+.boutonClasse, .boutonGeneral{
+  height: 90%;
+  --box-shadow:none;
+  width: 100%;
+  --border-radius: 15px 5px 0px 15px;
+}
+.boutonClasse {
+  --ion-color-primary: #D14F4F;
+}
+
+.boutonToiletColor, .boutonToiletColor:hover {
+  --ion-color-primary: #D5C095;
+  --background-hover: #D5C095;
+}
+
+.boutonClasse:hover{
+  --background-hover: #D14F4E;
+}
+
+.boutonAjout{
+  --ion-color-primary: #D14F4F;
+  width: 30%;
+  --border-radius: 30px;
+  margin: auto;
+}
+.boutonAjout:hover{
+  --background-hover: #D14F4E;
+}
+
+.boutonSupprimer{
+  --ion-color-primary: white;
+  color: black;
+  width: 30%;
+  --border-radius: 30px;
+  display:inline-block;
+  margin: 45px;
+}
+
+.boutonSupprimer:hover{
+  --background-hover: white;
+}
+
+.titreToilette{
+  margin: auto;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #D5C095;
+  padding: 10px;
+}
+
+
+.contentFecesUrine, .addUrine, .addTransit {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  font-size: 13px;
+  color: #707070;
+}
+
+.addUrine, .addTransit{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.inputClass{
+  border-bottom: 1px solid #707070;
+  /*-moz-border-bottom-colors: #707070 ;*/
+}
+.boutonGlycemie, .boutonToilettes{
+  --ion-color-primary: white;
+  --box-shadow:none;
+  width: 50%;
+}
+
+.boutonGlycemie:hover, .boutonToilettes:hover{
+  --background-hover: white;
+}
+
+.sourceText {
+  font-size: 10px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.typesTransit{
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.Glycemie {
+  padding: 2px 2px 2px 1%;
+  width: 100%;
+  height: 145px;
+  /* margin: 22px; */
+}
+
+.labelClass h2 {
+  color: #707070;
+  font-size: 15pt;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+    text-transform: none;
+}
+
+.divTitress {
+    --ion-background-color: #ffffff;
+    width: auto;
+    height: 94%;
+    box-shadow: 8.8px 3.6px 6.6px #f8f3f3;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-left: 3px;
+    padding: 8px;
+}
+
+.divTitress span{
+  color: #707070;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+}
+.detailsClass #element{
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.detailsClass{
+  /*margin-top: 7px;*/
+}
+
+.cibleClasse{
+    margin-left: 15px;
+    background-color: #EBF7F4;
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+}
+.fontPolice{
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+}
+
+.listeDeroulante{
+    max-width: 100% !important;
+}
+.iconeDateHeure{
+  width: 21%;
+  height: 90%;
+  margin-left: 75px;
+}
+.dateHeureClass{
+    float: left;
+    width: 100%;
+    border: transparent;
+}
+#inputErreur{
+  color: red;
+  text-align: center; 
+}
+
+.labelClass{
+    margin-top: 20px;
+}
+.borderDateHeure {
+  color: #707070;
+  margin-right: 17px;
+}
+
+.pageDetailsGlycemie{
+  background-color: white;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #707070;
+}
+.entetePage{
+  width: 100%;
+  height: 56px;
+  background-color: #24A788;
+  color: white;
+  font-size: 20px;
+}
+
+.entetePage b{
+  margin: 15px;
+  float: left;
+  margin-left: 26px;
+}
+.boutonPrec{
+  width: 70px;
+  height: 97%;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 59px;
+  --ion-color-primary: #24A788;
+}
+.btn{
+  box-shadow: none;
+}
+.boutonPrec button{
+  box-shadow: none;
+  border: none;
+}
+.entetePage img{
+  width: 40px;
+  height: 40px;
+  margin-top: 11px;
+}
+.pageDetailsGlycemie p{
+  margin-left: 25px;
+  font-size: 20px;
+  float: left;
+}
+.iconeAlert{
+    width: 45px;
+    height: 45px;
+    margin: 9px;
+    background-color: #F7F7F7;
+    border-radius: 21px;
+}
+.calendrier{
+  /* float: left; */
+  margin-left: 20px;
+}
+.cible2{
+  /* width: 30%; */
+}
+.iconeDateHeure2{
+  width: 3%;
+  height: 90%;
+  margin-left: 62px;
+}
+.cibleClasse2{
+  /* margin-left: 15px; */
+  background-color: #EBF7F4;
+  width: 100%;
+}
+.zoneGraphe{
+  width: 100%;
+  margin-left: 62px;
+  height: 400px;
+  background-color: #F7F7F7;
+}
+.bbn{
+  background-color: #EFEFEF;
+  margin-right: 6px;
+  border-radius: 20px;
+  width: 104px;
+  margin-left: 23px;
+  position: relative;
+  border-radius: 26px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #707070;
+}
+
+
+.bbn:hover{
+  --ion-color-primary: #24A788;
+  background-color: #24A788;
+  color: white;
+}
+
+.btn:focus{
+  background-color: #24A788;
+  color: white;
+}
+.rangeBtn{
+  margin-top: 8px;
+}
+
+.bordureGlycemie {
+  margin-top: 23px;
+  padding-bottom: 20px;
+  border-top: 5px solid #D14F4E;
+  width: 100%;
+  padding-top: 22px;
+}
+.lastTake{
+  margin-left: 20px;
+  color: #707070;
+}

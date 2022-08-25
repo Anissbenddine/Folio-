@@ -1,0 +1,11 @@
+{
+  "appId": "com.turtledev.fitnessHabit",
+  "appName": "fitnessHabit",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "cordova": {},
+  "build": "7",
+  "version": "2",
+  "linuxAndroidStudioPath": "/snap/bin/android-studio"
+}

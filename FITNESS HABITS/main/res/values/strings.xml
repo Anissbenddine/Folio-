@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">fithab</string>
+    <string name="title_activity_main">fithab</string>
+    <string name="package_name">com.fithab.app</string>
+    <string name="custom_url_scheme">com.fithab.app</string>
+</resources>

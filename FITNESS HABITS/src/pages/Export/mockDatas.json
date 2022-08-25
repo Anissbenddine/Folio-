@@ -1,0 +1,453 @@
+[
+  {
+    "activities" : {
+      "heure" : "6",
+      "minute" : "42"
+    },
+    "alcool" : {
+      "alcools" : [ {
+        "consumption" : 2,
+        "favoris" : false,
+        "fibre" : "2",
+        "glucide" : "5",
+        "gras" : "1",
+        "id" : "d8e6d-63ee-75b4-0022-37470e1561",
+        "name" : "Vin",
+        "proteine" : "10",
+        "qtte" : "02",
+        "unit" : "tasse"
+      }, {
+        "consumption" : 2,
+        "favoris" : false,
+        "fibre" : "01",
+        "glucide" : "10",
+        "gras" : 0,
+        "id" : "448dbcc-4d68-b543-437f-dfae11313b6c",
+        "name" : "Gin",
+        "proteine" : "10",
+        "qtte" : "10",
+        "unit" : "oz"
+      }, {
+        "consumption" : 8,
+        "favoris" : false,
+        "fibre" : 0,
+        "glucide" : 0,
+        "gras" : 0,
+        "id" : "58a7e6f-2e41-2a4c-64b8-6a8d81700e35",
+        "name" : "Bière",
+        "proteine" : 0,
+        "qtte" : 0,
+        "unit" : ""
+      }, {
+        "consumption" : 3,
+        "favoris" : false,
+        "fibre" : 0,
+        "glucide" : "5",
+        "gras" : 0,
+        "id" : "d1b154f-5b5c-c4c6-b23-f255bbb4f",
+        "name" : "Sangria",
+        "proteine" : "2",
+        "qtte" : "-2",
+        "unit" : "gr"
+      } ],
+      "dailyTarget" : {
+        "globalConsumption" : 7,
+        "unit" : "",
+        "value" : 0
+      }
+    },
+    "cereales" : {
+      "cereales" : [ {
+        "consumption" : 0,
+        "favoris" : false,
+        "fibre" : "04",
+        "glucide" : "02",
+        "gras" : "06",
+        "id" : "d7a17fc-bf51-a3b-d6be-bab6d48b04",
+        "name" : "Riz",
+        "proteine" : "01",
+        "qtte" : "111",
+        "unit" : "tasse"
+      }, {
+        "consumption" : 4,
+        "favoris" : false,
+        "fibre" : "3",
+        "glucide" : 0,
+        "gras" : "5",
+        "id" : "58da444-5e2a-efef-062e-8cf6623847",
+        "name" : "Pain",
+        "proteine" : "2",
+        "qtte" : "10",
+        "unit" : "gr"
+      } ],
+      "dailyTarget" : {
+        "globalConsumption" : 4,
+        "unit" : "",
+        "value" : 0
+      }
+    },
+    "food" : {
+      "categories" : {
+        "dairyProducts" : {
+          "items" : [ {
+            "fats" : 9,
+            "favorite" : false,
+            "fibre" : 8,
+            "glucides" : 60,
+            "id" : "2bbb8b3-cd25-368c-3c8d-1de23f12b",
+            "name" : "yogourt",
+            "proteins" : 60,
+            "qty" : 80,
+            "unit" : "unit"
+          }, {
+            "fats" : 55,
+            "favorite" : false,
+            "fibre" : 7,
+            "glucides" : 5,
+            "id" : "421dda8-7f1d-0a5-73c3-4cfe67ce1121",
+            "name" : "fromage",
+            "proteins" : 40,
+            "qty" : 30,
+            "unit" : "oz"
+          }, {
+            "fats" : 6,
+            "favorite" : false,
+            "fibre" : 90,
+            "glucides" : 5,
+            "id" : "a57c82-02c-6813-08ac-3dc548e3b3fa",
+            "name" : "lait",
+            "proteins" : 40,
+            "qty" : 2,
+            "unit" : "cup"
+          } ],
+          "macroNutrimentConsumption" : {
+            "fats" : 70,
+            "fibre" : 105,
+            "glucides" : 70,
+            "proteins" : 140
+          }
+        },
+        "fruit" : {
+          "items" : [ {
+            "fats" : 7,
+            "favorite" : false,
+            "fibre" : 6,
+            "glucides" : 5,
+            "id" : "c7d3635-1717-fc34-70ed-ddeaba46d75e",
+            "name" : "raisin",
+            "proteins" : 4,
+            "qty" : 4,
+            "unit" : "gr"
+          }, {
+            "fats" : 5,
+            "favorite" : false,
+            "fibre" : 4,
+            "glucides" : 1,
+            "id" : "e8f621a-1384-4d7f-876c-2b832d1dbe2f",
+            "name" : "ananas",
+            "proteins" : 20,
+            "qty" : 20,
+            "unit" : "gr"
+          }, {
+            "fats" : 10,
+            "favorite" : false,
+            "fibre" : 1,
+            "glucides" : 1,
+            "id" : "502a7a-ca25-181e-3a82-d22011444551",
+            "name" : "pomme",
+            "proteins" : 1,
+            "qty" : 10,
+            "unit" : "gr"
+          } ],
+          "macroNutrimentConsumption" : {
+            "fats" : 22,
+            "fibre" : 11,
+            "glucides" : 7,
+            "proteins" : 25
+          }
+        },
+        "grainFood" : {
+          "items" : [ {
+            "fats" : 70,
+            "favorite" : false,
+            "fibre" : 5,
+            "glucides" : 3,
+            "id" : "e5ab1e-53e2-6421-ae47-73d07278142f",
+            "name" : "riz",
+            "proteins" : 3,
+            "qty" : 10,
+            "unit" : "gr"
+          }, {
+            "fats" : 7,
+            "favorite" : false,
+            "fibre" : 60,
+            "glucides" : 50,
+            "id" : "ff0ecb8-38ab-1deb-7a6-ec58a36d2fb8",
+            "name" : "mais",
+            "proteins" : 40,
+            "qty" : 2,
+            "unit" : "gr"
+          }, {
+            "fats" : 50,
+            "favorite" : false,
+            "fibre" : 40,
+            "glucides" : 2,
+            "id" : "b85f47-fbef-c6ed-5d3-c76fd5b16232",
+            "name" : "pain",
+            "proteins" : 2,
+            "qty" : 2,
+            "unit" : "gr"
+          } ],
+          "macroNutrimentConsumption" : {
+            "fats" : 127,
+            "fibre" : 105,
+            "glucides" : 55,
+            "proteins" : 45
+          }
+        },
+        "proteinFood" : {
+          "items" : [ {
+            "fats" : 4,
+            "favorite" : false,
+            "fibre" : 50,
+            "glucides" : 6,
+            "id" : "b43aab2-7cc7-8c05-cfe-687b5ed3122c",
+            "name" : "saumon",
+            "proteins" : 70,
+            "qty" : 5,
+            "unit" : "gr"
+          }, {
+            "fats" : 0,
+            "favorite" : false,
+            "fibre" : 50,
+            "glucides" : 4,
+            "id" : "ab20761-8aa6-5a15-aede-12e65d25bb26",
+            "name" : "viande",
+            "proteins" : 30,
+            "qty" : 2,
+            "unit" : "gr"
+          }, {
+            "fats" : 4,
+            "favorite" : false,
+            "fibre" : 30,
+            "glucides" : 2,
+            "id" : "d051d8-2d0-541-f23d-3b435b5457ed",
+            "name" : "poulet",
+            "proteins" : 1,
+            "qty" : 20,
+            "unit" : "gr"
+          } ],
+          "macroNutrimentConsumption" : {
+            "fats" : 8,
+            "fibre" : 130,
+            "glucides" : 12,
+            "proteins" : 101
+          }
+        },
+        "vegetables" : {
+          "items" : [ {
+            "fats" : 66,
+            "favorite" : false,
+            "fibre" : 22,
+            "glucides" : 520,
+            "id" : "6841ab1-be2d-51d7-07c7-adb43551d537",
+            "name" : "aubergine",
+            "proteins" : 4,
+            "qty" : 4,
+            "unit" : "gr"
+          }, {
+            "fats" : 90,
+            "favorite" : false,
+            "fibre" : 8,
+            "glucides" : 80,
+            "id" : "8aec0d6-16e-a7d2-d5c3-be740c4bb",
+            "name" : "choufleur",
+            "proteins" : 80,
+            "qty" : 6,
+            "unit" : "gr"
+          }, {
+            "fats" : 0,
+            "favorite" : false,
+            "fibre" : 4,
+            "glucides" : 5,
+            "id" : "ab27a30-607-e137-523d-aa42d88e08ce",
+            "name" : "patate",
+            "proteins" : 5,
+            "qty" : 4,
+            "unit" : "oz"
+          } ],
+          "macroNutrimentConsumption" : {
+            "fats" : 156,
+            "fibre" : 34,
+            "glucides" : 605,
+            "proteins" : 89
+          }
+        }
+      },
+      "globalMacroNutrimentConsumption" : {
+        "fats" : 383,
+        "fibre" : 385,
+        "glucides" : 749,
+        "proteins" : 400
+      }
+    },
+    "glycemie" : {
+      "dailyGlycemie" : "2"
+    },
+    "gras" : {
+      "dailyTarget" : {
+        "globalConsumption" : 6,
+        "unit" : "",
+        "value" : 0
+      },
+      "grass" : [ {
+        "consumption" : 2,
+        "favoris" : false,
+        "fibre" : 0,
+        "glucide" : 0,
+        "gras" : "100",
+        "id" : "c10152b-084a-45e1-cb55-a48dcefc7",
+        "name" : "Sauce",
+        "proteine" : "10",
+        "qtte" : "2",
+        "unit" : "gr"
+      }, {
+        "consumption" : 4,
+        "favoris" : false,
+        "fibre" : "1",
+        "glucide" : "5",
+        "gras" : "10",
+        "id" : "87cc2f6-458-86c-02f8-cdcfc38e86cf",
+        "name" : "Sauce BBQ",
+        "proteine" : "1",
+        "qtte" : "80",
+        "unit" : "ml"
+      } ]
+    },
+    "hydratation" : {
+      "dailyTarget" : {
+        "globalConsumption" : 8,
+        "unit" : "",
+        "value" : 0
+      },
+      "hydrates" : [ {
+        "consumption" : 2,
+        "favoris" : false,
+        "fibre" : "30",
+        "glucide" : "20",
+        "gras" : "40",
+        "id" : "8c4141a-83b5-b837-e65d-78a05cc8fc6",
+        "name" : "Jus",
+        "proteine" : "10",
+        "qtte" : "10",
+        "unit" : "gr"
+      }, {
+        "consumption" : 3,
+        "favoris" : false,
+        "fibre" : "05",
+        "glucide" : "05",
+        "gras" : "50",
+        "id" : "a36fb6-668f-5551-11cc-8dced0164d2",
+        "name" : "Drink",
+        "proteine" : "50",
+        "qtte" : "10",
+        "unit" : "oz"
+      }, {
+        "consumption" : 3,
+        "favoris" : false,
+        "fibre" : 0,
+        "glucide" : 0,
+        "gras" : 0,
+        "id" : "cbc3ea2-7528-a2c5-5ac0-2d682b3b24b5",
+        "name" : "Eau",
+        "proteine" : "10",
+        "qtte" : "2",
+        "unit" : "ml"
+      } ]
+    },
+    "legumes" : {
+      "dailyTarget" : {
+        "globalConsumption" : 5,
+        "unit" : "",
+        "value" : 0
+      },
+      "legumes" : [ {
+        "consumption" : 2,
+        "favoris" : false,
+        "fibre" : "03",
+        "glucide" : "20",
+        "gras" : 0,
+        "id" : "ddf533e-b80b-43-3e14-2550ddb7f4",
+        "name" : "Soupe",
+        "proteine" : "10",
+        "qtte" : "15",
+        "unit" : "ml"
+      }, {
+        "consumption" : 3,
+        "favoris" : false,
+        "fibre" : "4",
+        "glucide" : "3",
+        "gras" : "10",
+        "id" : "6d10cda-1a7a-3724-36ab-6c00a236764",
+        "name" : "Salade",
+        "proteine" : "2",
+        "qtte" : 0,
+        "unit" : "unite"
+      } ]
+    },
+    "nourriture" : {
+      "globalConsumption" : 21
+    },
+    "poids" : [{
+      "dailyPoids" : "52.16",
+      "datePoids" : "2022-03-18"
+    },
+    {
+      "dailyPoids" : "50.16",
+      "datePoids" : "2022-04-19"
+    }],
+    "proteines" : {
+      "dailyTarget" : {
+        "globalConsumption" : 6,
+        "unit" : "",
+        "value" : 0
+      },
+      "proteines" : [ {
+        "consumption" : 2,
+        "favoris" : false,
+        "fibre" : 0,
+        "glucide" : 0,
+        "gras" : 0,
+        "id" : "f6755-7d0b-fe5-cd63-37f86dde76ac",
+        "name" : "VIande",
+        "proteine" : "10",
+        "qtte" : "02",
+        "unit" : "gr"
+      }, {
+        "consumption" : 4,
+        "favoris" : false,
+        "fibre" : 0,
+        "glucide" : "1",
+        "gras" : "10",
+        "id" : "dba6231-6e8b-ffd5-fb8-d72f1662ba5",
+        "name" : "Poulet rotie",
+        "proteine" : "20",
+        "qtte" : "",
+        "unit" : "unite"
+      } ]
+    },
+    "sommeil" : {
+      "heure": 0,
+      "heureDebut": "01:00",
+      "heureFin": "10:00",
+      "minute": 0,
+      "nbReveils": "4",
+      "etatReveil": "colere",
+      "duree": 540
+    },
+    "toilettes" : {
+      "feces" : 4,
+      "urine" : 5
+    }
+  }
+]

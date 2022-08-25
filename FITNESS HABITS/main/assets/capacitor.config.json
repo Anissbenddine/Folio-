@@ -1,0 +1,10 @@
+{
+  "appId": "com.fithab.app",
+  "appName": "fithab",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "cordova": {},
+  "build": "7",
+  "version": "2"
+}

@@ -1,0 +1,2050 @@
+{
+   "ABBREVIATION_MONTH": {
+      "en": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+      "es": "Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Set, Oct, Nov, Dic",
+      "fr": "Jan, Fév, Mar, Avr, Mai, Jun, Jul, Aou, Sep, Oct, Nov, Déc"
+   },
+   "WEIGHT_NAME_SECTION": {
+      "en": "Weight",
+      "es": "Peso",
+      "fr": "Poids"
+   },
+   "WEIGHT_PREF_UNIT_WEIGHT": {
+      "en": "Weight unit",
+      "es": "Unidad de peso",
+      "fr": "Unité de poids"
+   },
+   "WEIGHT_PREF_WEIGHT_INITIAL": {
+      "en": "Initial weight",
+      "es": "Peso inicial",
+      "fr": "Poids initial"
+   },
+   "WEIGHT_PREF_WEIGHT_TARGET": {
+      "en": "Weight target",
+      "es": "Peso objetivo",
+      "fr": "Poids cible"
+   },
+   "WEIGHT_PREF_DATE_TARGET": {
+      "en": "Target date",
+      "es": "Fecha objetivo",
+      "fr": "Date cible"
+   },
+   "WEIGHT_PREF_RESET": {
+      "en": "Reset",
+      "es": "Reiniciar",
+      "fr": "Réinitialiser"
+   },
+   "WEIGHT_PREF_CONFIRM": {
+      "en": "Confirm",
+      "es": "Confirmar",
+      "fr": "Confirmer"
+   },
+   "WEIGHT_PREF_CHOOSE": {
+      "en": "Select",
+      "es": "Seleccionar",
+      "fr": "Sélectionner"
+   },
+   "WEIGHT_PREF_CANCEL": {
+      "en": "Cancel",
+      "es": "Anular",
+      "fr": "Annuler"
+   },
+   "WEIGHT_TABL_EVO": {
+      "en": "Weight evolution",
+      "es": "Evolución del peso",
+      "fr": "Évolution du poids"
+   },
+   "WEIGHT_BMI_ACRONYM": {
+      "en": "BMI",
+      "es": "IMC",
+      "fr": "IMC"
+   },
+   "WEIGHT_BEGINNING_ALERT_MESSAGE": {
+      "en": "Warning, please enter the missing information in the following fields :\n",
+      "es": "Atención, por favor ingrese la información faltante en los siguientes campos :\n",
+      "fr": "Attention, veuillez saisir les informations manquantes dans les champs suivant :\n"
+   },
+   "WEIGHT_NEW": {
+      "en": "New weight",
+      "es": "Nuevo peso",
+      "fr": "Nouveau poids"
+   },
+   "WEIGHT_ADD": {
+      "en": "Add",
+      "es": "Agregar",
+      "fr": "Ajouter"
+   },
+   "WEIGHT_WEEK": {
+      "en": "Week",
+      "es": "Semana",
+      "fr": "Semaine"
+   },
+   "WEIGHT_MONTH": {
+      "en": "Month",
+      "es": "Mes",
+      "fr": "Mois"
+   },
+   "WEIGHT_QUARTER": {
+      "en": "Quarter",
+      "es": "Trimestre",
+      "fr": "Trimestre"
+   },
+   "WEIGHT_SEMESTER": {
+      "en": "Semester",
+      "es": "Semestre",
+      "fr": "Semestre"
+   },
+   "WEIGHT_YEAR": {
+      "en": "Year",
+      "es": "Año",
+      "fr": "Année"
+   },
+   "INITIAL_EMPTY_WEIGHT": {
+      "en": "\nThe initial weight must not be empty!",
+      "es": "\n¡El peso inicial no debe estar vacío!",
+      "fr": "\nLe poids initiale ne doit pas être vide !"
+   },
+   "EMPTY_TARGET_WEIGHT": {
+      "en": "\nThe target weight must not be empty!",
+      "es": "\n¡El peso objetivo no debe estar vacío!",
+      "fr": "\nLe poids cible ne doit pas être vide !"
+   },
+   "EMPTY_TARGET_WEIGHT_DATE": {
+      "en": "\nThe target date must not be empty!",
+      "es": "\n¡La fecha objetivo no debe estar vacía!",
+      "fr": "\nLa date cible ne doit pas être vide !"
+   },
+   "WEIGHT_END_MESSAGE_ALERT": {
+      "en": "\n\nHave a good day",
+      "es": "\n\nQue tenga un buen día",
+      "fr": "\n\nBonne journée"
+   },
+   "WEIGHT_SUGGESTION_DATE": {
+      "en": "Select a date",
+      "es": "Seleccione una fecha",
+      "fr": "Choisir une date"
+   },
+   "SKIN_CATEGORY": {
+      "en": "Too skinny",
+      "es": "Demasiado flaco",
+      "fr": "Trop maigre"
+   },
+   "IDEAL_CATEGORY": {
+      "en": "Ideal weight",
+      "es": "Peso ideal",
+      "fr": "Poids idéal"
+   },
+   "OVERWEIGHT_CATEGORY": {
+      "en": "Overweight",
+      "es": "Sobrepeso",
+      "fr": "Surpoids"
+   },
+   "CATEGORY_OB_CLASS_1": {
+      "en": "Class 1 obesity",
+      "es": "Obesidad clase 1",
+      "fr": "Obésité classe 1"
+   },
+   "CATEGORY_OB_CLASS_2": {
+      "en": "Class 2 obesity - severe",
+      "es": "Obesidad clase 2 - severa",
+      "fr": "Obésité classe 2 - sévère"
+   },
+   "CATEGORY_OB_CLASS_3": {
+      "en": "Morbid obesity",
+      "es": "Obesidad mórbida",
+      "fr": "Obésité morbide"
+   },
+   "ABBREVIATION_MOIS": {
+      "en": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+      "es": "Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Set, Oct, Nov, Dic",
+      "fr": "Jan, Fév, Mar, Avr, Mai, Jun, Jul, Aou, Sep, Oct, Nov, Déc"
+   },
+   "LANG_CHOOSE_LANG": {
+      "en": "Please choose your language",
+      "es": "Por favor, elija su idioma",
+      "fr": "Veuillez choisir votre langue"
+   },
+   "LANG_TITLE": {
+      "en": "Language",
+      "es": "Idioma",
+      "fr": "Langue"
+   },
+   "HYD_TITLE_TARGET": {
+      "en": "Daily target",
+      "es": "Objetivo diario",
+      "fr": "Cible quotidienne"
+   },
+   "HYD_ALERT_GT_3000_P1": {
+      "en": "Be careful, it is advisable not to exceed",
+      "es": "Cuidado, es recomendable de no exceder",
+      "fr": "Attention, il est conseillé de ne pas dépasser"
+   },
+   "HYD_BUTTON_CONFIRM_2": {
+      "en": "I confirm",
+      "es": "Confirmo",
+      "fr": "Je confirme"
+   },
+   "HYD_TEXT_COUNT": {
+      "en": "Consumptions",
+      "es": "Consumos",
+      "fr": "Consommations"
+   },
+   "HYD_TITLE_NOTIF": {
+      "en": "Hydration notification",
+      "es": "Notificación de hidratación",
+      "fr": "Notification d'hydratation"
+   },
+   "HYD_TEXT_NOTIF": {
+      "en": "It's time to drink because it's",
+      "es": "Es hora de beber su consumo de las",
+      "fr": "Il est temps de boire votre consommation de"
+   },
+   "HYD_BUTTON_CANCEL": {
+      "en": "Ignore",
+      "es": "Ignorar",
+      "fr": "Ignorer"
+   },
+   "HYD_BUTTON_CONFIRM_1": {
+      "en": "Confirm",
+      "es": "Confirmar",
+      "fr": "Confirmer"
+   },
+   "HYD_BUTTON_ADD_DRINK": {
+      "en": "+ Beverage",
+      "es": "+ Bebida",
+      "fr": "+ Breuvage"
+   },
+   "HYD_BUTTON_ADD_NOTIF": {
+      "en": "+ Notification time",
+      "es": "+ Hora de notificación",
+      "fr": "+ Heure de notification"
+   },
+  "HYD_TXT_ABREVIATION": {
+    "en": "Diminutive or abbreviation",
+    "es": "Diminutivo o abreviatura",
+    "fr": "Diminutif ou abréviation"
+  },
+  "HYD_TXT_MACRO_ELEM": {
+    "en": "Macro nutrients",
+    "es": "Macronutrientes",
+    "fr": "Macronutriments"
+  },
+  "HYD_TXT_MACRO_ELEM_DESC": {
+    "en": "You can find information about\n macro nutrients of your beverage on its box.",
+    "es": "Puede encontrar información sobre\n macronutrientes de su bebida en su caja.",
+    "fr": "Vous pouvez retrouver les informations des\n macronutriments  de votre breuvage sur sa boîte."
+  },
+  "HYD_TXT_MACRO_PROTEIN": {
+    "en": "Protein (Prot)",
+    "es": "Proteína (Prot)",
+    "fr": "Protéine (Prot)"
+  },
+  "HYD_TXT_MACRO_GLUCIDE": {
+    "en": "Carbohydrates (GL)",
+    "es": "Carbohidratos (GL)",
+    "fr": "Glucides (GL)"
+  },
+  "HYD_TXT_MACRO_FIBRE": {
+    "en": "Fiber (F)",
+    "es": "Fibra (F)",
+    "fr": "Fibres (F)"
+  },
+  "HYD_TXT_MACRO_GRAS": {
+    "en": "Fat (Gr)",
+    "es": "Grasa (Gr)",
+    "fr": "Gras (Gr)"
+  },
+  "HYD_MESURE": {
+    "en": "Measure",
+    "es": "Medida",
+    "fr": "Mesure"
+  },
+  "HYD_MESURE_BTN": {
+    "en": "add mesure +",
+    "es": "añadir medida +",
+    "fr": "ajouter la mesure +"
+  },
+  "HYD_BTN_SAVE": {
+    "en": "SAVE",
+    "es": "SALVAGUARDAR",
+    "fr": "SAUVEGARDER"
+  },
+  "HYD_BTN_SUPPRESSION": {
+    "en": "Deletion",
+    "es": "Supresión",
+    "fr": "Suppression"
+  },
+  "HYD_BTN_SUPPRESSION_MSG": {
+    "en": "Are you sure you want to delete this drink ?",
+    "es": "¿ Seguro que quieres eliminar este brebaje ?",
+    "fr": "Voulez-vous vraiment supprimer ce breuvage ?"
+  },
+  "HYD_BTN_DEL_CONF": {
+    "en": "DELETE",
+    "es": "ELIMINAR",
+    "fr": "SUPPRIMER"
+  },
+  "HYD_BTN_DEL_CAN": {
+    "en": "CANCEL",
+    "es": "ANULAR",
+    "fr": "ANNULER"
+  },
+   "UNIT_GR": {
+      "en": "gram(s)",
+      "es": "gramo(s)",
+      "fr": "gramme(s)"
+   },
+   "UNIT_OZ": {
+      "en": "ounce(s)",
+      "es": "onza(s)",
+      "fr": "once(s)"
+   },
+   "UNIT_ML": {
+      "en": "mililitre(s)",
+      "es": "mililitro(s)",
+      "fr": "millilitre(s)"
+   },
+   "UNIT_LB": {
+      "en": "pound(s)",
+      "es": "libra(s)",
+      "fr": "livre(s)"
+   },
+   "UNIT_CUP": {
+      "en": "cup(s)",
+      "es": "taza(s)",
+      "fr": "tasse(s)"
+   },
+   "UNIT_TEXT": {
+      "en": "unit(s)",
+      "es": "unidad(es)",
+      "fr": "unité(s)"
+   },
+   "FOOD_MODULE": {
+      "title": {
+         "en": "Food",
+         "es": "Comida",
+         "fr": "Nourriture"
+      },
+      "foodCategories": {
+         "proteinFood": {
+            "en": "Protein Food",
+            "es": "Alimentos proteicos",
+            "fr": "Aliments protéinés"
+         },
+         "grainFood": {
+            "en": "Grain Food",
+            "es": "Comida de grano",
+            "fr": "Aliments à grain"
+         },
+         "vegetables": {
+            "en": "Vegetables",
+            "es": "Vegetales",
+            "fr": "Légumes"
+         },
+         "fruit": {
+            "en": "Fruit",
+            "es": "Frutas",
+            "fr": "Fruits"
+         },
+         "dairyProducts": {
+            "en": "Dairy Products",
+            "es": "Productos lácteos",
+            "fr": "Produits laitiers"
+         }
+      },
+      "macroNutrientSummary": {
+         "en": "Total (g)",
+         "es": "Total (g)",
+         "fr": "Total (g)"
+      },
+      "functions": {
+         "addFoodItem": {
+            "en": "Add food item",
+            "es": "Añadir un alimento",
+            "fr": "Ajouter un aliment"
+         },
+         "addLabel": {
+            "name": {
+               "en": "Name",
+               "es": "Nombre",
+               "fr": "Nom"
+            },
+            "qtyConsumed": {
+               "en": "Quantity consumed",
+               "es": "Cantidad consumida",
+               "fr": "Quantité consommée"
+            },
+            "refQty": {
+               "en": "Reference quantity",
+               "es": "Cantidad de referencia",
+               "fr": "Quantité de référence"
+            },
+            "unit": {
+               "en": "Unit of meaure",
+               "es": "Unidad de medida",
+               "fr": "Unité de mesure"
+            },
+            "macroNutrients": {
+               "en": "Macronutrients",
+               "es": "Macronutrientes",
+               "fr": "Macronutriments"
+            }
+         },
+         "addErrorMessage": {
+            "saveItem": {
+               "en": "Rules for adding and/or editing a food item: \n 1. A food item's name cannot be empty;\n 2. consumed and reference quantities must be non-zero;\n 3. at least one macronutrient must have a non-zero quantity.",
+               "es": "Reglas para agregar y/o editar un alimento: \n 1. El nombre de un alimento no puede estar vacío;\n 2. Las cantidades consumidas y de referencia deben ser distintas de cero;\n 3. Al menos un macronutriente debe tener un valor distinto de cero.",
+               "fr": "Règles pour ajouter et/ou modifier un aliment : \n 1. Le nom d'un aliment ne peut pas être vide ;\n 2. les quantités consommées et de référence doivent être non nulles ;\n 3. au moins un macronutriment doit avoir une quantité non nulle."
+            }
+         }
+      },
+      "macroNutrients": {
+         "proteins": {
+            "en": "Proteins",
+            "es": "Proteínas",
+            "fr": "Protéines"
+         },
+         "carbs": {
+            "en": "Carbs",
+            "es": "Carbohidratos",
+            "fr": "Glucides"
+         },
+         "fibre": {
+            "en": "Fibre",
+            "es": "Fibras",
+            "fr": "Fibres"
+         },
+         "fats": {
+            "en": "Fats",
+            "es": "Grasas",
+            "fr": "Gras"
+         }
+      }
+   },
+   "START_TIME": {
+      "en":"Start time",
+      "es":"Hora de inicio",
+      "fr":"Heure de début"
+   },
+   "INTENSITY": {
+     "en":"Intensity",
+     "es":"Intensidad",
+     "fr":"Intensité"
+   },
+  "INTENSITY_LOW": {
+    "en":"Low",
+    "es":"Abajo",
+    "fr":"Basse"
+  },
+  "INTENSITY_MEDIUM": {
+    "en":"Medium",
+    "es":"Medio",
+    "fr":"Moyenne"
+  },
+  "INTENSITY_HIGH": {
+    "en":"Intense",
+    "es":"Intenso",
+    "fr":"Intense"
+  },
+  "INTENSITY_HIIT": {
+    "en":"HIIT",
+    "es":"Muy intenso",
+    "fr":"Très intense"
+  },
+   "SUPPL_TITLE":{
+      "en":"Supplements",
+      "es":"Suplementos",
+      "fr":"Suppléments"
+   },
+   "SUPPL_SECOND_TITLE":{
+      "en":"and Medicines",
+      "es":"y Medicamentos",
+      "fr":"et Médicaments"
+   },
+  "CONFIRM_DELETE": {
+    "en":"Confirm deletion",
+    "es":"Confirmar la eliminación",
+    "fr":"Confirmer la suppression"
+  },
+   "SUPPL_ADD":{
+      "en":"Add supplements/medications",
+      "es":"Añadir suplementos/medicamentos",
+      "fr":"Ajouter suppléments/médicaments"
+   },
+   "SUPPL_AJOUT_ERREUR":{
+      "en":"Error while adding, required fields are empty or invalid",
+      "es":"Error al agregar, los campos obligatorios están vacíos o no son válidos",
+      "fr":"Erreur lors de l'ajout, des champs requis sont vides ou invalides"
+   },
+   "SUPPL_HEURE_PRISE":{
+      "en":"Time taken",
+      "es":"Tiempo tomado",
+      "fr":"Heure de prise"
+   },
+   "SUPPL_NOM":{
+      "en":"Name",
+      "es":"Nombre",
+      "fr":"Nom"
+   },
+   "SUPPL_FORME_CAPSULE":{
+      "en":"Capsule",
+      "es":"Cápsula",
+      "fr":"Gélule"
+   },
+   "SUPPL_FORME_TABLET":{
+      "en":"Tablet",
+      "es":"Tableta",
+      "fr":"Comprimé"
+   },
+   "SUPPL_FORME_DROP":{
+      "en":"Drop",
+      "es":"Gota",
+      "fr":"Goutte"
+   },
+   "SUPPL_FORME_SIROP":{
+      "en":"Liquid/Syrup (ml)",
+      "es":"Líquido/Jarabe (ml)",
+      "fr":"Liquide/Sirop (ml)"
+   },
+   "SUPPL_FORMAT_BOUTEILLE":{
+      "en":"Bottles (units)",
+      "es":"Botellas (unidades)",
+      "fr":"Bouteilles (unités)"
+   },
+   "SUPPL_FORMAT_GEL":{
+      "en":"Gel (pre-dosed)",
+      "es":"Gel (predosificado)",
+      "fr":"Gel (pré-dosé)"
+   },
+   "SUPPL_FORMAT_INJECTION":{
+      "en":"Injection (pre-dosed)",
+      "es":"Inyección (predosificada)",
+      "fr":"Injection (pré-dosé)"
+   },
+   "SUPPL_RESTRICTION":{
+      "en":"Restrictions",
+      "es":"Restricciones",
+      "fr":"Restrictions"
+   },
+   "SUPPL_RESTRICTION_JEUN":{
+      "en":"Must be taken on an empty stomach",
+      "es":"Debe tomarse con el estómago vacío",
+      "fr":"Doit être prise à jeun"
+   },
+   "SUPPL_RESTRICTION_MANGEANT":{
+      "en":"Must be taken with food",
+      "es":"Debe tomarse con alimentos",
+      "fr":"Doit être prise en mangeant"
+   },
+   "SUPPL_AJOUTER_RESTRICTION":{
+      "en":"Add restriction",
+      "es":"Añadir restricción",
+      "fr":"Ajouter restriction"
+   },
+   "SUPPL_NOUVELLE_RESTRICTION":{
+      "en":"New restriction",
+      "es":"Nueva restricción",
+      "fr":"Nouvelle restriction"
+   },
+   "SUPPL_TYPE":{
+      "en":"Type",
+      "es":"Tipo",
+      "fr":"Type"
+   },
+   "SUPPL_QUANTITE":{
+      "en":"Amount",
+      "es":"Cantidad",
+      "fr":"Quantité"
+   },
+   "SUPPL_AJOUTER_FORMAT":{
+      "en":"Add Format",
+      "es":"Añadir tamaño",
+      "fr":"Ajouter Format"
+   },
+   "SUPPL_NOUVEAU_FORMAT":{
+      "en":"New format",
+      "es":"Nuevo formato",
+      "fr":"Nouveau format"
+   },
+   "SUPPL_NOMBRE_DOSES":{
+      "en":"Number of doses",
+      "es":"Número de dosis",
+      "fr":"Nombre de doses"
+   },
+   "SUPPL_FREQUENCE_DOSES":{
+      "en":"Frequency of doses",
+      "es":"Frecuencia de dosis",
+      "fr":"Fréquence des doses"
+   },
+   "SUPPL_ERREUR_CONNEXION":{
+      "en":"Error with login, please log out and log back in to the app",
+      "es":"Error con el inicio de sesión, cierre sesión y vuelva a iniciar sesión en la aplicación",
+      "fr":"Erreur avec la connexion, veuillez vous déconnecter et vous reconnecter à l'application"
+   },
+   "SUPPL_POSSEDE_DATE_FIN":{
+      "en":"Has an end date",
+      "es":"Tiene una fecha de finalización",
+      "fr":"Possède une date de fin"
+   },
+   "SUPPL_SUPPPLEMENT":{
+      "en":"Supplement",
+      "es":"Suplemento",
+      "fr":"Supplément"
+   },
+   "SUPPL_MEDICAMENT":{
+      "en":"Medicament",
+      "es":"Medicamento",
+      "fr":"Médicament"
+   },
+   "SUPPL_DATE_DEBUT":{
+      "en":"Start date",
+      "es":"Fecha de inicio",
+      "fr":"Date de debut"
+   },
+   "SUPPL_DATE_FIN":{
+      "en":"End date",
+      "es":"Fecha de fin",
+      "fr":"Date de fin"
+   },
+   "SUPPL_TIME_TAKEN":{
+      "en":"Time of intake",
+      "fr":"Heure de la prise",
+      "es":"Hora de tomar"
+   },
+   "SUPPL_ADD_TIME_TAKEN":{
+      "en":"Add a time of intake",
+      "fr":"Ajouter une heure de la prise",
+      "es":"Añadir una hora de tomar"
+   },
+   "SUPPL_REMOVE_TIME_TAKEN":{
+      "en":"Remove the time of intake",
+      "fr":"Enlever l'heure de la prise",
+      "es":"Retirar una hora de tomar"
+   },
+   "SUPPL_LESS_THAN_ONCE_PER_WEEK":{
+      "en": "Less than once per week",
+      "fr": "Moins d'une fois par semaine",
+      "es": "Menos que una vez a la semana"
+   },
+   "SUPPL_DAY_OF_INTAKE":{
+      "en":"Day of intake",
+      "fr":"Jour de la prise",
+      "es":"Día de ingesta"
+   },
+   "SUPPL_DAY_OF_THE_MONTH":{
+      "en":"Day of the month",
+      "fr":"Jour du mois",
+      "es":"Día del mes"
+   },
+   "SUPPL_ADD_DAY":{
+      "en":"Add day",
+      "fr":"Ajouter un jour",
+      "es":"Añadir un día"
+   },
+   "SUPPL_REMOVE_DAY":{
+      "en":"Remove Day",
+      "fr":"Supprimer un jour",
+      "es":"Eliminar un día"
+   },
+   "SUPPL_REP":{
+      "en":"Repetition",
+      "fr":"Répétition",
+      "es":"Repetición"
+   },
+   "SUPPL_ACTIVE":{
+      "en":"Active",
+      "es":"Activo",
+      "fr":"Actif"
+   },
+   "SUPPL_POSOLOGY":{
+      "en":"Posology",
+      "es":"Posología",
+      "fr":"Posologie"
+   },
+   "SUPPL_DOSE_BY":{
+      "en":"Dose by",
+      "es":"Dosis por",
+      "fr":"Dose par"
+   },
+   "SUPPL_DOSE":{
+      "en":"Dose",
+      "es":"Dosis",
+      "fr":"Dose"
+   },
+
+   "SUPPL_LISTE_SUP_VIDE":{
+      "en":"There are currently no supplements",
+      "es":"Actualmente no hay suplementos",
+      "fr":"Il n'y a aucun supplément présentement"
+   },
+   "SUPPL_LISTE_MED_VIDE":{
+      "en":"There are currently no medications",
+      "es":"Actualmente no hay medicamentos",
+      "fr":"Il n'y a aucun médicament présentement"
+   },
+   "SUPPL_LISTE_SUP":{
+      "en":"Supplements : ",
+      "es":"Suplementos : ",
+      "fr":"Suppléments : "
+   },
+   "SUPPL_LISTE_MED":{
+      "en":"Medications : ",
+      "es":"Medicamentos : ",
+      "fr":"Médicaments : "
+   },
+
+   "SUPPL_ADD_SELECT":{
+      "en":"Add",
+      "es":"agregar",
+      "fr":"Ajouter"
+   },
+   "SUPPL_COFFE_SPOON":{
+      "en":"Coffee spoon",
+      "es":"Cuchara de café",
+      "fr":"Cuillère à café"
+   },
+   "SUPPL_SOUP_SPOON":{
+      "en":"Soup spoon",
+      "es":"Cuchara de sopa",
+      "fr":"Cuillère à soupe"
+   },
+   "SUPPL_EVERY_DAY":{
+      "en":"Every day",
+      "es":"Todos los días",
+      "fr":"Tous les jours"
+   },
+   "SUPPL_MONDAY":{
+      "en":"Monday",
+      "es":"Lunes",
+      "fr":"Lundi"
+   },
+   "SUPPL_TUESDAY":{
+      "en":"Tuesday",
+      "es":"Martes",
+      "fr":"Mardi"
+   },
+   "SUPPL_WEDNESDAY":{
+      "en":"Wednesday",
+      "es":"Miércoles",
+      "fr":"Mercredi"
+   },
+   "SUPPL_THURSDAY":{
+      "en":"Thursday",
+      "es":"Jueves",
+      "fr":"Jeudi"
+   },
+   "SUPPL_FRIDAY":{
+      "en":"Friday",
+      "es":"Viernes",
+      "fr":"Vendredi"
+   },
+   "SUPPL_SATURDAY":{
+      "en":"Saturday",
+      "es":"Sábado",
+      "fr":"Samedi"
+   },
+   "SUPPL_SUNDAY":{
+      "en":"Sunday",
+      "es":"Domingo",
+      "fr":"Dimanche"
+   },
+   "SUPPL_HOURS":{
+      "en":"Hour(s)",
+      "es":"Hora(s)",
+      "fr":"Heure(s)"
+   },
+   "SUPPL_DAY":{
+      "en":"Day(s)",
+      "es":"Dia(s)",
+      "fr":"Jour(s)"
+   },
+   "SUPPL_WEEK":{
+      "en":"Week(s)",
+      "es":"Semana(s)",
+      "fr":"Semaine(s)"
+   },
+   "SUPPL_MONTH":{
+      "en":"Month(s)",
+      "es":"Mes(es)",
+      "fr":"Mois"
+   },
+   "SUPPL_MORNING":{
+      "en":"Morning",
+      "es":"Mañana",
+      "fr":"Matin"
+   },
+   "SUPPL_HALF_DAY":{
+      "en":"Half-day",
+      "es":"Medio día",
+      "fr":"Midi"
+   },
+   "SUPPL_NIGHT":{
+      "en":"Night",
+      "es":"Noche",
+      "fr":"Soir"
+   },
+   "SUPPL_SAVE":{
+      "en":"Save",
+      "es":"Guardar",
+      "fr":"Enregistrer"
+   },
+   "SUPPL_CANCEL":{
+      "en":"Cancel",
+      "es":"Cancelar",
+      "fr":"Annuler"
+   },
+   "SUPPL_LIST":{
+      "en":"List supplements/medications",
+      "es":"Lista suplementos/medicamentos",
+      "fr":"Lister suppléments/médicaments"
+   },
+   "SUPPL_DISPLAY_GAPS":{
+      "en":"Display the gaps",
+      "es":"Visualizar las diferencias",
+      "fr":"Afficher les écarts"
+   },
+   "SUPPL_FORMAT":{
+      "en":"Format",
+      "es":"Formato",
+      "fr":"Format"
+   },
+   "DATE_FORMAT_SETTINGS_TITLE":{
+      "en":"Date format",
+      "es":"Formato de fecha",
+      "fr":"Format de date"
+   },
+   "DATE_FORMAT_US_UK":{
+      "en":"MM-JJ-AAAA (American or English format) ex: 02-16-2021",
+      "es":"MM-JJ-AAAA (formato americano o inglés) ex: 02-16-2021",
+      "fr":"MM-JJ-AAAA (format américain ou anglais) ex: 02-16-2021"
+   },
+   "DATE_FORMAT_FRENCH":{
+      "en":"JJ-MM-AAAA (French format) ex: 16-02-2021",
+      "es":"JJ-MM-AAAA (formato francés) ex: 16-02-2021",
+      "fr":"JJ-MM-AAAA (format français) ex: 16-02-2021"
+   },
+   "DATE_FORMAT_INTERNATIONAL":{
+      "en":"AAAA-MM-JJ (international format) ex: 2021-02-16",
+      "es":"AAAA-MM-JJ (formato internacional) ex: 2021-02-16",
+      "fr":"AAAA-MM-JJ (format international) ex: 2021-02-16"
+   },
+   "DATE_FORMAT_INTERNATIONAL_LETTERED":{
+      "en":"AAAA-mmm-JJ (international with the month in letters) ex: 2021-feb-16",
+      "es":"AAAA-mmm-JJ (internacional cuyo mes es alfabetizado) ex: 2021-feb-16",
+      "fr":"AAAA-mmm-JJ (international dont le mois est lettré) ex: 2021-fev-16"
+   },
+   "DATE_FORMAT_FRENCH_LETTERED":{
+      "en":"JJ-mmm-AAAA (French with the month in letters) ex: 16-feb-2021",
+      "es":"JJ-mmm-AAAA (francés con el mes alfabetizado) ex: 16-feb-2021",
+      "fr":"JJ-mmm-AAAA (français avec mois lettré) ex: 16-fev-2021"
+   },
+   "ALCOOL_SETTINGS_ACTIVATE_NOTIF":{
+      "en":"Activate notifications",
+      "es":"Activar notificaciones",
+      "fr":"Activer les notifications"
+   },
+   "ALCOOL_SETTINGS_TITLE_CONSUMPTION":{
+      "en":"Consumption limits",
+      "es":"Límites de consumo",
+      "fr":"Limites de consommations"
+   },
+   "ALCOOL_DAY_CONSUMPTION":{
+      "en":"per day",
+      "es":"por día",
+      "fr":"par jour"
+   },
+   "ALCOOL_WEEK_CONSUMPTION":{
+      "en":"per week",
+      "es":"por semana",
+      "fr":"par semaine"
+   },
+   "ALCOOL_MAX_CONSUMPTION":{
+      "en":"Maximum",
+      "es":"Máximo",
+      "fr":"Maximum"
+   },
+   "ALCOOL_MAX_WEEK_CONSUMPTION":{
+      "en":"days per week",
+      "es":"días por semana",
+      "fr":"jours par semaine"
+   },
+   "ALCOOL_RECOMMANDATION":{
+      "en":"Use Éduc'alcool recommendations",
+      "es":"Utilizar las recomendaciones de Éduc'alcool",
+      "fr":"Utiliser les recommandations d'Éduc'alcool"
+   },
+   "ALCOOL_SETTINGS_RECOMMANDATION_MESSAGE":{
+      "en":"Notification message",
+      "es":"Mensaje de notificación",
+      "fr":"Message de notification"
+   },
+   "ALCOOL_RECOMMANDATION_EDUCALCOOL_MESSAGE":{
+      "en":"According to Éduc'alcool's recommendations, you have exceeded the limit. It's just a reminder...",
+      "es":"Según las recomendaciones de Educ'alcool, acaba de pasar el límite. Es sólo un recordatorio...",
+      "fr":"Selon les recommandations d'Éduc'alcool, vous venez de dépasser la limite. C'est juste un rappel…"
+   },
+   "AUTH_FED_CONNECT_FB":{
+      "en":"Connect with Facebook",
+      "es":"Conectarse con Facebook",
+      "fr":"Se connecter via Facebook"
+   },
+   "AUTH_FED_CONNECT_GOOGLE":{
+      "en":"Connect with Google",
+      "es":"Conectarse con Google",
+      "fr":"Se connecter via Google"
+   },
+   "AUTH_FED_CONNECT_FB_SUCCESS":{
+      "en":"Facebook authentification succeeded!",
+      "es":"¡Autenticación exitosa de Facebook!",
+      "fr":"Authentification Facebook réussie !"
+   },
+   "AUTH_FED_CONNECT_GOOGLE_SUCCESS":{
+      "en":"Google authentification succeeded!",
+      "es":"¡Autenticación exitosa de Google!",
+      "fr":"Authentification Google réussie !"
+   },
+   "AUTH_FED_CONNECT_GOOGLE_ERROR":{
+      "en":"Error with Google authentification!",
+      "es":"¡Error de autenticación de Google!",
+      "fr":"Erreur d'authentification Google !"
+   },
+   "AUTH_FED_CONNECT_FB_ERROR":{
+      "en":"Error with Facebook authentification!",
+      "es":"¡Error de autenticación de Facebook!",
+      "fr":"Erreur d'authentification Facebook !"
+   },
+   "AUTH_LOGIN_ERROR":{
+      "en":"Authentification error. The username and/or password are invalid!",
+      "es":"Error de autentificación. ¡El nombre de usuario y/o contraseña no son válidos!",
+      "fr":"Erreur d'authentification. L'identifiant et/ou le mot passe sont invalides !"
+   },
+  "NAME_ACTIVITY":{
+    "en":"Activity name",
+    "es":"Nombre de la actividad",
+    "fr":"Nom de l'activité"
+  },
+  "MANUAL_ENTRY":{
+    "en":"Enter manually",
+    "es":"Ingresar manualmente",
+    "fr":"Entrer manuellement"
+  },
+   "OR":{
+      "en":"OR",
+      "es":"O",
+      "fr":"OU"
+   },
+   "NEW_REGISTER":{
+      "en":"New, register",
+      "es":"Nuevo, registrarse",
+      "fr":"Créer un nouveau compte"
+   },
+   "USER_NAME":{
+      "en":"Username",
+      "es":"¿Nombre del usuario?",
+      "fr":"Nom d'utilisateur"
+   },
+   "USER_NAME_PASSWORD_REQUIRED":{
+      "en":"Username and password are required.",
+      "es":"Se requiere nombre de usuario y contraseña.",
+      "fr":"Nom d'utilisateur et mot de passe requis."
+   },
+   "CONFIRM_PASWORD":{
+      "en":"Confirm the password",
+      "es":"Confirma la contraseña",
+      "fr":"Confirmer le mot de passe"
+   },
+   "PASSWORD":{
+      "en":"Password",
+      "es":"¿Contraseña?",
+      "fr":"Mot de passe"
+   },
+   "PASSWORD_NOT_MATCH":{
+      "en":"Passwords do not match.",
+      "es":"Las contraseñas no coinciden.",
+      "fr":"Les mots de passe ne correspondent pas."
+   },
+   "ALREADY_REGISTERED":{
+      "en":"I have an account.",
+      "es":"Ya tengo una cuenta.",
+      "fr":"J'ai déjà un compte."
+   },
+   "ANGRY":{
+      "en":"Angry",
+      "es":"En cólera",
+      "fr":"En Colère"
+   },
+   "BED_DATE": {
+      "en": "Fell asleep on",
+      "es": "Me dormí el",
+      "fr": "Endormi le"
+   },
+   "BED_TIME": {
+      "en": "Bed Time",
+      "es": "Me dormí a",
+      "fr": "Endormi à"
+   },
+   "BED_DATE_END": {
+      "en": "Woke up on",
+      "es": "Me desperté el",
+      "fr": "Réveillé le"
+   },
+   "BED_TIME_END": {
+      "en": "Woke up at",
+      "es": "Me desperté a",
+      "fr": "Réveillé à"
+   },
+   "CANCEL": {
+      "en": "Cancel",
+      "es": "Cancelar",
+      "fr": "Annuler"
+   },
+   "CONNECT": {
+      "en": "Log in",
+      "es": "Conectarse",
+      "fr": "Se connecter"
+   },
+   "DATA_SAVED": {
+      "en": "The data has been saved successfully.",
+      "es": "Los datos se han guardado correctamente.",
+      "fr": "Les données ont bien été sauvegardées."
+   },
+   "FATIGUE": {
+      "en": "Tired",
+      "es": "Cansado",
+      "fr": "Fatigué"
+   },
+   "HAPPY": {
+      "en": "Happy",
+      "es": "Contento",
+      "fr": "Heureux"
+   },
+   "I_WOKE_UP": {
+      "en": "During this period, I woke up ",
+      "es": "Durante este periodo, me desperté ",
+      "fr": "Durant cette période, je me suis réveillé "
+   },
+   "REGISTER": {
+      "en": "Register",
+      "es": "Registrarse",
+      "fr": "S'inscrire"
+   },
+   "REGISTERED_SUCCESSFULLY": {
+      "en": "You have successfully registered.",
+      "es": "Se ha registrado exitosamente.",
+      "fr": "Votre compte a été créé avec succès."
+   },
+   "RESTED": {
+      "en": "Rested",
+      "es": "Descansado",
+      "fr": "Reposé"
+   },
+   "SLEEP": {
+      "en": "Sleep",
+      "es": "Sueño",
+      "fr": "Sommeil"
+   },
+   "TOTAL_SLEEP": {
+      "en": "Total hours of sleep",
+      "es": "Horas totales de sueño",
+      "fr": "Heures totales de sommeil"
+   },
+   "DAILY_SLEEP": {
+      "en": "Daily sleep",
+      "es": "Sueño diario",
+      "fr": "Sommeil quotidien"
+   },
+   "SEE_LIST": {
+      "en": "See full list",
+      "es": "Ver toda la lista",
+      "fr": "Voir toute la liste"
+   },
+   "TARGET": {
+      "en": "Target",
+      "es": "Objetivo",
+      "fr": "Cible"
+   },
+   "HYDRATION": {
+      "en": "Hydration",
+      "es": "Hidratación",
+      "fr": "Hydratation"
+   },
+   "FOOD": {
+      "en": "Food",
+      "es": "Comida",
+      "fr": "Nourriture"
+   },
+   "ALCOHOL": {
+      "en": "Alcohol",
+      "es": "Alcohol",
+      "fr": "Alcool"
+   },
+   "ACTIVITIES": {
+      "en": "Activities",
+      "es": "Ocupaciones",
+      "fr": "Activités"
+   },
+  "ACTIVITY": {
+    "en":"Activity",
+    "es":"Actividad",
+    "fr":"Activité"
+  },
+   "WEIGHT": {
+      "en": "Weight",
+      "es": "Peso",
+      "fr": "Poids"
+   },
+   "TOILET": {
+      "en": "Toilet",
+      "es": "Baño",
+      "fr": "Toilettes"
+   },
+   "GLYCEMIC": {
+      "en": "Glycemic",
+      "es": "Glucémico",
+      "fr": "Glycémique"
+   },
+   "SOMMEIL_DUREE_ERROR": {
+      "en": "The sleep time cannot be 0 minutes.",
+      "es": "La duración del sueño no puede ser de 0 minutos.",
+      "fr": "La durée de sommeil ne peut pas être de 0 minutes."
+   },
+   "SOMMEIL_ETAT_REVEIL_ERROR": {
+      "en": "At least one wake-up state must be selected.",
+      "es": "Seleccionar al menos un estado de ánimo al despertar.",
+      "fr": "Il faut sélectionner au moins un état de réveil."
+   },
+   "AT": {
+      "en": "at",
+      "es": "a",
+      "fr": "à"
+   },
+   "STATE_OF_MIND": {
+      "en": "Awakening state of mind",
+      "es": "Estado de ánimo al despertar",
+      "fr": "État d'esprit au réveil"
+   },
+   "TIMES": {
+      "en": " times.",
+      "es": " veces.",
+      "fr": " fois."
+   },
+   "WAIT": {
+      "en": "Please wait...",
+      "es": "Espere por favor...",
+      "fr": "Veuillez patienter..."
+   },
+   "POIDS_NOM_SECTION": {
+      "en": "Weight",
+      "es": "Peso",
+      "fr": "Poids"
+   },
+   "POIDS_PREF_UNITE_POIDS": {
+      "en": "Weight unit",
+      "es": "Unidad de peso",
+      "fr": "Unité de poids"
+   },
+   "POIDS_PREF_POIDS_INITIAL": {
+      "en": "Initial weight",
+      "es": "Peso inicial",
+      "fr": "Poids initial"
+   },
+   "POIDS_PREF_POIDS_CIBLE": {
+      "en": "Weight target",
+      "es": "Peso objetivo",
+      "fr": "Poids cible"
+   },
+   "POIDS_PREF_DATE_CIBLE": {
+      "en": "Target date",
+      "es": "Fecha objetivo",
+      "fr": "Date cible"
+   },
+   "POIDS_PREF_DATE_INITIALE": {
+      "en": "Initial date",
+      "es": "Fecha inicial",
+      "fr": "Date initiale"
+   },
+   "POIDS_PREF_REINITIALISER": {
+      "en": "Reset",
+      "es": "Reiniciar",
+      "fr": "Réinitialiser"
+   },
+   "POIDS_PREF_CONFIRMER": {
+      "en": "Confirm",
+      "es": "Confirmar",
+      "fr": "Confirmer"
+   },
+   "POIDS_PREF_CHOISIR": {
+      "en": "Select",
+      "es": "Seleccionar",
+      "fr": "Sélectionner"
+   },
+   "POIDS_PREF_ANNULER": {
+      "en": "Cancel",
+      "es": "Anular",
+      "fr": "Annuler"
+   },
+   "POIDS_PREF_PARAMETRES": {
+      "en": "Parameters",
+      "es": "Parámetros",
+      "fr": "Paramètres"
+   },
+   "POIDS_TABL_EVO_3_MOIS": {
+      "en": "Last 3 months weight evolution",
+      "es": "Evolución del peso de los últimos 3 meses",
+      "fr": "Évolution du poids des 3 derniers mois"
+   },
+   "GLYC_TITLE": {
+      "en": "Blood sugar level",
+      "es": "Glucemia",
+      "fr": "Glycémie"
+   },
+   "POIDS_IMC_ACCRONIME": {
+      "en": "BMI",
+      "es": "IMC",
+      "fr": "IMC"
+   },
+   "SELECT_DATA_REQUIRED_TITLE": {
+      "en": "Please select at least a data type",
+      "es": "Seleccione al menos un tipo de datos",
+      "fr": "Veuillez sélectionner au moins un type de donnée"
+   },
+   "HYDR_TITLE": {
+      "en": "Hydration",
+      "es": "Hidratación",
+      "fr": "Hydratation"
+   },
+   "ALCOOL_TITLE": {
+      "en": "Alcohol",
+      "es": "Alcohol",
+      "fr": "Alcool"
+   },
+   "NOURRITURE_TITLE": {
+      "en": "Food",
+      "es": "Alimentos",
+      "fr": "Nourriture"
+   },
+   "EXPORT_TITLE": {
+      "en": "Export",
+      "es": "Exportar",
+      "fr": "Exportation"
+   },
+   "DATES_EXPORTATION_TITLE": {
+      "en": "Export dates",
+      "es": "Fechas de exportación",
+      "fr": "Dates d'exportation"
+   },
+   "EXPORT_DATA_SELECTION_TITLE": {
+      "en": "Selection of data to be exported",
+      "es": "Selección de los datos a exportar",
+      "fr": "Sélection des données à exporter"
+   },
+   "ACTIVITES_TITLE": {
+      "en": "Physical activities",
+      "es": "Actividades físicas",
+      "fr": "Activités physiques"
+   },
+   "EXPORT_ACTIVITES_TITLE": {
+      "en": "Physical activities",
+      "es": "Actividades físicas",
+      "fr": "Activités physiques"
+   },
+   "ACTIVITY_TARGET_NAME" : {
+      "en": "Target",
+      "es": "Objetivo",
+      "fr": "Cible"
+   },
+   "SEVEN_DAYS":{
+      "en":"For 7 days",
+      "es":"Durante 7 días",
+      "fr":"Depuis 7 jours"
+   },
+   "PRACTICES": {
+      "en":"Activity practices",
+      "es":"Prácticas de actividad",
+      "fr":"Pratiques d'activités"
+    },
+   "USUAL_ACTIVITES":{
+    "en":"Usual activities",
+    "es":"Actividades habituales",
+    "fr":"Activités habituelles"
+  },
+  "MODIFY_ACTIVITY": {
+    "en":"Edit activity",
+    "es":"Editar actividad",
+    "fr":"Modifier activité"
+  },
+  "ADD_ACTIVITY": {
+    "en":"Add activity",
+    "es":"Añadir actividad",
+    "fr":"Ajouter activité"
+  },
+  "MODIFY_USUAL_ACTIVITY": {
+    "en":"Edit activity",
+    "es":"Editar actividad",
+    "fr":"Modifier activité"
+  },
+  "ADD_USUAL_ACTIVITY": {
+    "en":"Add usual activity",
+    "es":"Añadir actividad habitual",
+    "fr":"Ajouter activité habituelle"
+  },
+  "DELETE_ACTIVITY": {
+    "en":"Delete activity",
+    "es":"Eliminar actividad",
+    "fr":"Supprimer activité"
+  },
+  "DELETE": {
+    "en":"Delete",
+    "es":"Eliminar",
+    "fr":"Supprimer"
+  },
+  "TOTAL_TIME": {
+    "en":"Total duration",
+    "es":"Duración total",
+    "fr":"Durée totale"
+  },
+  "AVG_INTENSITY": {
+    "en":"Average of intensities",
+    "es":"Promedio de intensidades",
+    "fr":"Moyenne des intensités"
+  },
+  "DELETE_ACTIVITY_DESCRIPTIION": {
+    "en":"Are you sure you want to delete this activity?",
+    "es":"¿Está seguro de que desea eliminar esta actividad?",
+    "fr":"Voulez-vous vraiment supprimer cette activité ?"
+  },
+  "DELETE_USUAL_ACTIVITY": {
+    "en":"Delete usual Activity",
+    "es":"Eliminar actividad habitual",
+    "fr":"Supprimer activité habituelle"
+  },
+  "DELETE_USUAL_ACTIVITY_DESCRIPTIION": {
+    "en":"Are you sure you want to delete this usual activity?",
+    "es":"¿Está seguro de que desea eliminar esta actividad habitual?",
+    "fr":"\nVoulez-vous vraiment supprimer cette activité habituelle?"
+  },
+  "MODIFY": {
+    "en":"Edit",
+    "es":"Editar",
+    "fr":"Modifier"
+  },
+  "ADD": {
+    "en":"Add",
+    "es":"Añadir",
+    "fr":"Ajouter"
+  },
+   "TOILETS_TITLE":{
+      "en":"Toilets",
+      "es":"Aseos",
+      "fr":"Toilettes"
+   },
+   "ADD_ACTIVITY": {
+      "en": "Add activity",
+      "es": "Añadir actividad",
+      "fr": "Ajouter activité"
+   },
+   "DELETE": {
+      "en": "Delete",
+      "es": "Eliminar",
+      "fr": "Supprimer"
+   },
+   "DELETE_ACTIVITY": {
+      "en": "Delete Activity",
+      "es": "Eliminar actividad",
+      "fr": "Supprimer Activité"
+   },
+   "DELETE_ACTIVITY_DESCRIPTIION": {
+      "en": "Are you sure you want to delete this activity?",
+      "es": "¿Está seguro de que desea eliminar esta actividad?",
+      "fr": "Voulez-vous vraiment supprimer cette activité ?"
+   },
+   "MODIFY": {
+      "en": "Edit",
+      "es": "Editar",
+      "fr": "Modifier"
+   },
+   "ADD": {
+      "en": "Add",
+      "es": "Añadir",
+      "fr": "Ajouter"
+   },
+   "TOILETS_TITLE": {
+      "en": "Toilets",
+      "es": "Baño",
+      "fr": "Toilettes"
+   },
+   "EXPORT_FORMAT_TITLE": {
+      "en": "Export format",
+      "es": "Formato de exportación",
+      "fr": "Format exportation"
+   },
+   "CSV_AND_PDF_TITLE": {
+      "en": "CSV and PDF",
+      "es": "CSV y PDF",
+      "fr": "CSV et PDF"
+   },
+   "NO_DATA_FOUND_IN_SELECTED_DATES_TITLE": {
+      "en": "No data to be extracted on the selected dates",
+      "es": "No hay datos para extraer en las fechas seleccionadas",
+      "fr": "Aucune donnée à extraire à l'intérieur des dates choisies"
+   },
+   "EXPORT_FILENAME_TITLE": {
+      "en": "Fitness Habits Report as of ",
+      "es": "Informe de Fitness Habits con fecha ",
+      "fr": "Bilan Fitness Habits en date du "
+   },
+   "SUPP_NOT_YET_IMPLEMENTED": {
+      "en": "Supplements are not yet implemented",
+      "es": "Los suplementos aún no están implementados",
+      "fr": "Les suppléments ne sont pas encore implémentés"
+   },
+   "FECES_TITLE": {
+      "en": "Feces",
+      "es": "Heces",
+      "fr": "Feces"
+   },
+   "URINE_TITLE": {
+      "en": "Urine",
+      "es": "Orina",
+      "fr": "Urine"
+   },
+   "SEND_MAIL": {
+      "en": "Send by email",
+      "es": "Enviar por correo elec.",
+      "fr": "Envoyer par courriel"
+   },
+   "SAVE_TO_DEV": {
+      "en": "Save to device",
+      "es": "Guardar en el dispositivo",
+      "fr": "Enregistrer sur appareil"
+   },
+   "DE": {
+      "en": "From",
+      "es": "De",
+      "fr": "De"
+   },
+   "A": {
+      "en": "To",
+      "es": "A",
+      "fr": "À"
+   },
+   "EXP_REPORT_UNIT": {
+      "en": "Unit",
+      "es": "Unidad",
+      "fr": "Unité"
+   },
+   "EXP_REPORT_WEIGHT": {
+      "en": "Weight",
+      "es": "Peso",
+      "fr": "Poids"
+   },
+   "EXP_REPORT_INITIAL_WEIGHT": {
+      "en": "Initial weight",
+      "es": "Peso inicial",
+      "fr": "Poids initial"
+   },
+   "EXP_REPORT_FINAL_WEIGHT": {
+      "en": "Final weight",
+      "es": "Peso final",
+      "fr": "Poids final"
+   },
+   "EXP_REPORT_DIFF_WEIGHT": {
+      "en": "Weight difference",
+      "es": "Diferencia de peso",
+      "fr": "Différence de poids"
+   },
+   "EXP_REPORT_DURATION": {
+      "en": "Duration",
+      "es": "Duración",
+      "fr": "Durée"
+   },
+   "EXP_REPORT_TIME": {
+      "en": "Time",
+      "es": "Tiempo",
+      "fr": "Temps"
+   },
+   "EXP_REF_GLY": {
+      "en": "Reference",
+      "es": "Referencia",
+      "fr": "Référence"
+   },
+   "EXP_REPORT_AVERAGE_DURATION_ACTIVITY": {
+      "en": "Average",
+      "es": "Promedio",
+      "fr": "Moyenne"
+   },
+   "EXP_REPORT_START_HOUR_SLEEP": {
+      "en": "Bedtime",
+      "es": "Hora de acostarse",
+      "fr": "Heure de coucher"
+   },
+   "EXP_REPORT_END_HOUR_SLEEP": {
+      "en": "Waking hour",
+      "es": "Hora de despertar",
+      "fr": "Heure de réveil"
+   },
+   "EXP_REPORT_WAKEUP_QT_SLEEP": {
+      "en": "Wake up quantity",
+      "es": "Veces que desperté",
+      "fr": "Quantité de réveils"
+   },
+   "EXP_REPORT_AVG_END_HOUR_SLEEP": {
+      "en": "Average waking hour",
+      "es": "Hora de despertar promedio",
+      "fr": "Heure de réveil moyen"
+   },
+   "EXP_REPORT_AVG_START_HOUR_SLEEP": {
+      "en": "Average bedtime",
+      "es": "Hora de acostarse promedio",
+      "fr": "Heure de coucher moyen"
+   },
+   "EXP_REPORT_AVG_DURATION_SLEEP": {
+      "en": "Average duration",
+      "es": "Duración promedio",
+      "fr": "Durée moyenne"
+   },
+   "EXP_REPORT_AVG_WAKEUP_QT": {
+      "en": "Wake up(s) per night",
+      "es": "Despertar(es) por noche",
+      "fr": "Réveil(s) par nuit"
+   },
+   "EXP_REPORT_WAKEUP_STATE": {
+      "en": "Wake-up state",
+      "es": "Estado al despertar",
+      "fr": "État au réveil"
+   },
+   "EXP_REPORT_QT": {
+      "en": "Quantity",
+      "es": "Cantidad",
+      "fr": "Quantité"
+   },
+   "EXP_REPORT_MACROS": {
+      "TOTAL": {
+         "en": "Total",
+         "es": "Total",
+         "fr": "Total"
+      },
+      "AVG": {
+         "en": "Average",
+         "es": "Promedio",
+         "fr": "Moyenne"
+      },
+      "TOT_FIB": {
+         "en": "Total fibers",
+         "es": "Fibras total",
+         "fr": "Total fibres"
+      },
+      "TOT_PROT": {
+         "en": "Total proteins",
+         "es": "Proteinas total",
+         "fr": "Total proteines"
+      },
+      "TOT_GLUC": {
+         "en": "Total carbs",
+         "es": "Glúcidos total",
+         "fr": "Total glucides"
+      },
+      "TOT_FAT": {
+         "en": "Total fats",
+         "es": "Grasa total",
+         "fr": "Total gras"
+      },
+      "AVG_FIB": {
+         "en": "Average fibers",
+         "es": "Fibras promedio",
+         "fr": "Moyenne fibres"
+      },
+      "AVG_PROT": {
+         "en": "Average proteins",
+         "es": "Proteínas promedio",
+         "fr": "Moyenne proteines"
+      },
+      "AVG_GLUC": {
+         "en": "Average carbs",
+         "es": "Glúcidos promedio",
+         "fr": "Moyenne glucides"
+      },
+      "AVG_FAT": {
+         "en": "Average fats",
+         "es": "Grasa promedio",
+         "fr": "Moyenne gras"
+      },
+      "QTY": {
+         "en": "quantity",
+         "es": "cantidad",
+         "fr": "quantité"
+      },
+      "PROT": {
+         "en": "Proteins",
+         "es": "Proteínas",
+         "fr": "Protéines"
+      },
+      "GLUC": {
+         "en": "Glucides",
+         "es": "Glúcidos",
+         "fr": "Glucides"
+      },
+      "FIBRE": {
+         "en": "Fibre",
+         "es": "Fibras",
+         "fr": "Fibres"
+      },
+      "FATS": {
+         "en": "Fats",
+         "es": "Grasas",
+         "fr": "Gras"
+      }
+   },
+   "EXP_UR_TR": {
+      "en": "Transit",
+      "es": "Tránsito",
+      "fr": "Transit"
+   },
+   "EXP_TOT_UR": {
+      "en": "Total urine",
+      "es": "Orina total",
+      "fr": "Total urine"
+   },
+   "EXP_TOT_FEC": {
+      "en": "Total faeces",
+      "es": "Excrementos total",
+      "fr": "Total feces"
+   },
+   "EXP_AVG_UR": {
+      "en": "Average urine per day",
+      "es": "Orina promedio por día",
+      "fr": "Moyenne urine par jour"
+   },
+   "EXP_AVG_FEC": {
+      "en": "Average faeces per day",
+      "es": "Excrementos promedio por día",
+      "fr": "Moyenne feces par jour"
+   },
+   "EXP_AVG_TRA": {
+      "en": "Average transits per day",
+      "es": "Excrementos promedio por día",
+      "fr": "Moyenne transits par jour"
+   },
+   "HOME_TITLE": {
+      "en": "Home",
+      "es": "Inicio",
+      "fr": "Acceuil"
+   },
+   "DATE_TITLE": {
+      "en": "Date",
+      "es": "Fecha",
+      "fr": "Date"
+   },
+   "ALT_LOGO": {
+      "en": "Fitness Habits Logo",
+      "es": "Logo de Fitness Habits",
+      "fr": "Logo Fitness Habits"
+   },
+   "ALT_LOGO_TXT": {
+      "en": "Fitness Habits",
+      "es": "Fitness Habits",
+      "fr": "Fitness Habits"
+   },
+   "SIDEBAR_LBL_USERNAME": {
+      "en": "Username",
+      "es": "Nombre de usuario",
+      "fr": "Pseudo"
+   },
+   "SIDEBAR_LBL_PROFILE": {
+      "en": "Profile",
+      "es": "Perfil",
+      "fr": "Profil"
+   },
+   "SIDEBAR_LBL_EMAIL": {
+      "en": "Email",
+      "es": "Correo electrónico",
+      "fr": "Courriel"
+   },
+   "SIDEBAR_PLCHLDR_EMAIL": {
+      "en": "abcd@fitnesshabit.com",
+      "es": "abcd@fitnesshabit.com",
+      "fr": "abcd@fitnesshabit.com"
+   },
+   "SIDEBAR_LBL_TAILLE": {
+      "en": "Height",
+      "es": "Estatura",
+      "fr": "Taille"
+   },
+   "SIDEBAR_PLCHLDR_TAILLE": {
+      "en": "Centimeter",
+      "es": "Centímetro",
+      "fr": "Centimètres"
+   },
+   "SIDEBAR_LBL_SEXE": {
+      "en": "Sex",
+      "es": "Sexo",
+      "fr": "Sexe"
+   },
+   "SIDEBAR_LBL_DATEFORMAT": {
+      "en": "Date Format",
+      "es": "Formato de fecha",
+      "fr": "Format de date"
+   },
+   "SIDEBAR_OPTION_DATE_1": {
+      "en": "MM-DD-YYYY (02-16-2021)",
+      "es": "MM-DD-AAAA (02-16-2021)",
+      "fr": "MM-JJ-AAAA (02-16-2021)"
+   },
+   "SIDEBAR_OPTION_DATE_2": {
+      "en": "DD-MM-YYYY (16-02-2021)",
+      "es": "DD-MM-AAAA (16-02-2021)",
+      "fr": "JJ-MM-AAAA (16-02-2021)"
+   },
+   "SIDEBAR_OPTION_DATE_3": {
+      "en": "YYYY-MM-DD (2021-02-16)",
+      "es": "AAAA-MM-DD (2021-02-16)",
+      "fr": "AAAA-MM-JJ (2021-02-16)"
+   },
+   "SIDEBAR_OPTION_DATE_4": {
+      "en": "YYYY-mmm-DD (2021-feb-16)",
+      "es": "AAAA-mmm-DD (2021-feb-16)",
+      "fr": "AAAA-mmm-JJ (2021-fev-16)"
+   },
+   "SIDEBAR_OPTION_DATE_5": {
+      "en": "DD-mmm-YYYY (16-feb-2021)",
+      "es": "DD-mmm-AAAA (16-feb-2021)",
+      "fr": "JJ-mmm-AAAA (16-fev-2021)"
+   },
+   "SIDEBAR_LBL_UNIT": {
+      "en": "Unit",
+      "es": "Unidad",
+      "fr": "Unité"
+   },
+   "SIDEBAR_LBL_PORTION_SIZE": {
+      "en": "Size",
+      "es": "Tamaño",
+      "fr": "Taille"
+   },
+   "CATEGORIE_MAIGRE": {
+      "en": "Too skinny",
+      "es": "Demasiado flaco",
+      "fr": "Trop maigre"
+   },
+   "CATEGORIE_IDEAL": {
+      "en": "Ideal weight",
+      "es": "Peso ideal",
+      "fr": "Poids idéal"
+   },
+   "CATEGORIE_SURPOIDS": {
+      "en": "Overweight",
+      "es": "Sobrepeso",
+      "fr": "Surpoids"
+   },
+   "CATEGORIE_OB_CLASSE_1": {
+      "en": "Class 1 obesity",
+      "es": "Obesidad clase 1",
+      "fr": "Obésité classe 1"
+   },
+   "CATEGORIE_OB_CLASSE_2": {
+      "en": "Class 2 obesity - severe",
+      "es": "Obesidad clase 2 - severa",
+      "fr": "Obésité classe 2 - sévère"
+   },
+   "CATEGORIE_OB_CLASSE_3": {
+      "en": "Morbid obesity",
+      "es": "Obesidad mórbida",
+      "fr": "Obésité morbide"
+   },
+   "POIDS_DEBUT_MESSAGE_ALERT": {
+      "en": "Warning, please enter the missing information in the following fields :\n",
+      "es": "Atención, por favor ingrese la información faltante en los siguientes campos :\n",
+      "fr": "Attention, veuiller saisir les informations manquantes dans les champs suivant :\n"
+   },
+   "POIDS_INITIAL_VIDE": {
+      "en": "\nThe initial weight must not be empty!",
+      "es": "\n¡El peso inicial no debe estar vacío!",
+      "fr": "\nLe poids initiale ne doit pas être vide !"
+   },
+   "POIDS_CIBLE_VIDE": {
+      "en": "\nThe target weight must not be empty!",
+      "es": "\nEl peso objetivo no debe estar vacío!",
+      "fr": "\nLe poids cible ne doit pas être vide !"
+   },
+   "POIDS_DATE_CIBLE_VIDE": {
+      "en": "\nThe target date must not be empty!",
+      "es": "\n¡La fecha objetivo no debe estar vacía!",
+      "fr": "\nLa date cible ne doit pas être vide !"
+   },
+   "POIDS_FIN_MESSAGE_ALERT": {
+      "en": "\n\nHave a good day",
+      "es": "\n\nQue tenga un buen día",
+      "fr": "\n\nBonne journée"
+   },
+   "POIDS_SUGGESTION_DATE": {
+      "en": "Select a date",
+      "es": "Seleccionar una fecha",
+      "fr": "Choisir une date"
+   },
+   "SIDEBAR_HEIGHT_M_DISPLAY": {
+      "en": "meters",
+      "es": "metros",
+      "fr": "mètres"
+   },
+   "SIDEBAR_HEIGHT_CM_DISPLAY": {
+      "en": "centimeters",
+      "es": "centímetros",
+      "fr": "centimètres"
+   },
+   "SIDEBAR_LBL_SEXE_MAN": {
+      "en": "Man",
+      "es": "Hombre",
+      "fr": "Homme"
+   },
+   "SIDEBAR_LBL_SEXE_WOMAN": {
+      "en": "Woman",
+      "es": "Mujer",
+      "fr": "Femme"
+   },
+   "SIDEBAR_LBL_SEXE_OTHER": {
+      "en": "Other",
+      "es": "Otro",
+      "fr": "Autre"
+   },
+   "SIDEBAR_LBL_SEXE_NO_ANSWER": {
+      "en": "Prefer not to answer",
+      "es": "Prefiero no contestar",
+      "fr": "Préfère ne pas répondre"
+   },
+   "AVG": {
+      "en": "Average",
+      "es": "Promedio",
+      "fr": "Moyenne"
+   },
+   "TOT_FIB": {
+      "en": "Total fibers",
+      "es": "Fibras total",
+      "fr": "Total fibres"
+   },
+   "TOT_PROT": {
+      "en": "Total proteins",
+      "es": "Proteínas total",
+      "fr": "Total proteines"
+   },
+   "TOT_GLUC": {
+      "en": "Total carbs",
+      "es": "Glúcidos total",
+      "fr": "Total glucides"
+   },
+   "TOT_FAT": {
+      "en": "Total fats",
+      "es": "Grasa total",
+      "fr": "Total gras"
+   },
+   "AVG_FIB": {
+      "en": "Average fibers",
+      "es": "Fibras promedio",
+      "fr": "Moyenne fibres"
+   },
+   "AVG_PROT": {
+      "en": "Average proteins",
+      "es": "Proteínas promedio",
+      "fr": "Moyenne proteines"
+   },
+   "AVG_GLUC": {
+      "en": "Average carbs",
+      "es": "Glúcidos promedio",
+      "fr": "Moyenne glucides"
+   },
+   "AVG_FAT": {
+      "en": "Average fats",
+      "es": "Grasa promedio",
+      "fr": "Moyenne gras"
+   },
+   "WEIGHT_INITIAL_NAME": {
+      "en": "Initial weight",
+      "es": "Peso inicial",
+      "fr": "Poids initial"
+   },
+   "WEIGHT_INITIAL_DATE": {
+      "en": "entered on",
+      "es": "ingresado el",
+      "fr": "entré le"
+   },
+   "WEIGHT_TARGET_NAME": {
+      "en": "Target",
+      "es": "Objetivo",
+      "fr": "Cible"
+   },
+   "LAST_WEIGHT": {
+      "en": "Last weight entered",
+      "es": "Último peso ingresado",
+      "fr": "Dernier poids entré"
+   },
+   "ALERTS_SETUP": {
+      "en": "Set up alerts",
+      "es": "Configurar alertas",
+      "fr": "Paramétrer les alertes"
+   },
+   "SHOW_GRAPH": {
+      "en": "Show graph",
+      "es": "Mostrar gráfico",
+      "fr": "Afficher le graphique"
+   },
+   "CLOSE_GRAPH": {
+      "en": "Close graph",
+      "es": "Cerrar gráfico",
+      "fr": "Fermer le graphique"
+   },
+   "DAILY_AVERAGE_7_DAYS": {
+      "en": "Daily average / 7 days",
+      "es": "Promedio diario / 7 días",
+      "fr": "Moyenne quotidienne / 7 jrs"
+   },
+   "CIBLE_GLY": {
+      "en": "Target",
+      "es": "Objetivo",
+      "fr": "Cible"
+  },
+  "MOMENT_GLY": {
+      "en": "Moment",
+      "es": "Momento",
+      "fr": "Moment"
+  },
+  "AULEVER_GLYC": {
+      "en": "At Rise",
+      "es": "En aumento",
+      "fr": "Au lever"
+  },
+  "COUCHE_GLYC": {
+      "en": "At bedtime",
+      "es": "A la hora de dormir",
+      "fr": "Au coucher"
+  },
+  "NUIT_GLYC": {
+      "en": "The night",
+      "es": "La noche",
+      "fr": "La nuit"
+  },
+  "DEJ_GLYC": {
+      "en": "Breakfast",
+      "es": "Desayuno",
+      "fr": "Petit Déjeuner"
+  },
+  "AVANT": {
+      "en": "Before",
+      "es": "Antes",
+      "fr": "Avant"
+  },
+  "APRES": {
+      "en": "After",
+      "es": "Después",
+      "fr": "Après"
+  },
+  "LUNCH": {
+      "en": "Lunch",
+      "es": "Almuerzo",
+      "fr": "Lunch"
+  },
+  "SOUPER": {
+      "en": "Supper",
+      "es": "Cena",
+      "fr": "Souper"
+  },
+  "COLLATION": {
+      "en": "Snack",
+      "es": "Bocadillo",
+      "fr": "Collation"
+  },
+  "AVANT_MIDI": {
+      "en": "Before noon",
+      "es": "Antes de mediodia",
+      "fr": "Avant midi"
+  },
+  "APRES_MIDI": {
+      "en": "Afternoon",
+      "es": "Tarde",
+      "fr": "Après midi"
+  },
+  "SOIREE": {
+      "en": "Evening",
+      "es": "Tardecita",
+      "fr": "Soirée"
+  },
+  "NB_QUOTIDIENNE_TOILETTE": {
+      "en": "Daily number of times",
+      "es": "Número diario de veces",
+      "fr": "Nombre quotidienne de fois"
+  },
+  "TOILET_CONST": {
+   "en": "Constipation",
+   "es": "Estreñimiento",
+   "fr": "Constipation"
+   },
+   "TOILET_SADDLE": {
+      "en": "Ideal saddles",
+      "es": "Sillas de montar ideales",
+      "fr": "Selles idéales"
+   },
+   "TOILET_DIARRHEA": {
+      "en": "Diarrhea",
+      "es": "Diarrea",
+      "fr": "Diarrhée"
+   },
+   "ADD_TARGET_WEIGHT":{
+      "en": "Save",
+      "es": "Guardar",
+      "fr": "Enregistrer"
+   },
+   "NEW_TARGET_WEIGHT":{
+      "en": "Enter your target",
+      "es": "Introduce tu objetivo",
+      "fr": "Entrez votre cible"
+   },
+   "DELETE_CONFIRMATION":{
+      "en": "Are you sure you want to delete",
+      "es": "Está seguro de que desea eliminar",
+      "fr": "Voulez-vous vraiment supprimer"
+
+   },
+   "DELETE_CONFIRMATION_INFOS":{
+      "en": "this weight information ?",
+      "es": "esta información de peso ?",
+      "fr": "ces informations de poids ?"
+
+   },
+   "CONFIRMATION":{
+      "en": "Confirmation",
+      "es": "Confirmación",
+      "fr": "Confirmation"
+
+   },
+   "ACCEPT_DELETE":{
+      "en": "Delete",
+      "es": "Borrar",
+      "fr": "Supprimer"
+
+   },
+   "CANCEL_DELETE":{
+      "en": "Cancel",
+      "es": "Cancelar",
+      "fr": "Annuler"
+
+   },
+   "SOURCE": {
+      "en": "Sources",
+      "es": "Fuentes",
+      "fr": "Sources"
+   },
+   "GLYC_ALERTE":{
+      "en":"Set up alerts",
+      "es":"Configurar alertas",
+      "fr":"Paramètrer les alertes"
+   },
+   "DER_PRISE_GLY":{
+      "en":"Last take",
+      "es":"ultima toma",
+      "fr":"Dernière prise"
+   },
+   "A_GLY":{
+      "en":"at",
+      "es":"a",
+      "fr":"à"
+   }
+   
+   
+}

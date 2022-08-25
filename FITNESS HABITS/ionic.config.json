@@ -1,0 +1,7 @@
+{
+  "name": "fithab",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

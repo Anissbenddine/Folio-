@@ -1,0 +1,130 @@
+.input {
+  height: 60%;
+  background-color: #e7dcdc;
+  border-radius: 5px;
+}
+
+.categorie {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.supp-text-sm {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;  
+  color:#707070
+}
+
+.iconeSize{
+  cursor: pointer;
+  width: 40px !important;
+  height: 40px !important;
+  margin: auto;
+  
+}
+
+.point {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.border {
+  padding-inline-start: 10px;
+  padding-inline-end: 5px;
+}
+
+.date-icon {
+  font-size: 37px;
+  color: #707070 !important;
+}
+
+.trash-icon {
+  font-size: 25px;
+  color: 	white !important;
+}
+
+:root {
+  --ion-color-trash: #eb445a;
+}
+
+.ion-color-trash {
+  --ion-color-base: var(--ion-color-trash);
+}
+
+.add-icon {
+  font-size: 25px;
+  color: 	white !important;
+}
+
+.save-icon {
+  font-size: 40px;
+  color: 	white !important;
+}
+
+.divIconeSupp {
+  width: 120px;
+  height: 120px;
+  float: right;
+  --padding-start: 10px;
+  border-bottom: 0px;
+  border-radius: 8px;
+  background-color: #BCB8B0;
+}
+
+.divInfos {
+  background-color: #FFFFFF;
+  height: 100px;
+  width: 80%;
+  float: right;
+  border-bottom: 0px;
+  --padding-start: 10px;
+
+}
+
+.trashButton{
+  background-color:#BCB8B0 ;
+}
+
+.titreSupp{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color:#707070
+}
+
+.rightInfos {
+    margin-inline: 20px;
+    align-content:right;
+      
+}
+.leftInfos{
+  --padding-top: 10px;
+}
+
+#banniereHeader {
+  --background:#BCB8B0
+}
+
+#titreMenu {
+  color: white;
+}
+
+#iconeRetourMenu {
+  color: white;
+}
+
+.champFormulaireAjoutInvalide {
+  color: white;
+  background-color: darkred;
+}
+
+.labelMedSupp {
+  padding-left: 5px;
+}
